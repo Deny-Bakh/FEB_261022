@@ -1,0 +1,67 @@
+*{
+    color: blueviolet;
+}
+
+h1 {
+    color: blue;
+}
+
+[href] {
+    color: #000;
+}
+
+.red {
+    color: red;
+}
+
+#yellow {
+    color: yellow;
+}
+
+[href="https://www.google.com/"] {
+    color: #F924A4;
+}
+
+div>p {
+    color: brown;
+}
+
+p:hover {
+    color: black;
+}
+
+div::first-letter{
+    color: blue;
+}
+
+div.intro{
+    color: aquamarine;
+}
+
+li a{
+    color: blueviolet !important;
+}
+
+.name1, .name2 {
+    color: darkorange;
+}
+
+section h2{
+    color: burlywood;
+}
+
+h3~span{
+    color: gold;
+}
+
+.block.text {
+    color: slategrey;
+}
+
+.name1 .name2{
+    color: mediumspringgreen;
+}
+
+.text div{
+    color: rgb(210, 151, 34);
+}
