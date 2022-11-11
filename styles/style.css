@@ -37,10 +37,14 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /* --------------------------------------------------------------------------------------------- */
 
-html{
+body{
     font-family: 'Roboto', sans-serif;
     background-color: #E5E5E5;
-    box-sizing: border-box;
+}
+
+.main {
+    max-width: 1110px;
+    margin: 0 auto;
 }
 
 img{
@@ -61,34 +65,42 @@ p{
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
-}
-
-.main {
-    max-width: 1110px;
-    margin: 0 auto;
-}
-
-.card{
-    
-    border: 1px solid black;
-    /* text-overflow: ellipsis; */
-    /* display: inline-block; */
-    float: left;
-    margin: 1rem;
-    max-width: 250px;
-    height: 250px;
-    background-color: #E0E0E0;
-    text-align: center;
-}
-
-.card p{
     margin-bottom: 18px;
 }
 
-/* @media screen and (min-width: 249px) {
-    .card {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
+.card{
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px -5px grey;
+    display: inline-block;
+    /* float: left; */
+    margin: 1rem;
+    max-width: 250px;
+    min-height: 200px;
+    background-color: #E0E0E0;
+    text-align: center;
+    animation: card 3s linear infinite normal running 0s none;
+}
+
+@keyframes card{
+    0%{
+        box-shadow: 5px -5px grey;
     }
-  } */
+    25%{
+        box-shadow: 5px 5px grey;
+    }
+    50%{
+        box-shadow: -5px 5px grey;
+    }
+    75%{
+        box-shadow: -5px -5px grey;
+    }
+    100%{
+        box-shadow: 5px -5px grey;
+    }
+}
+
+.card:hover{
+    color: blue;
+    transition: all 0.5s ease-in-out;
+}
