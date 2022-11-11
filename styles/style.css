@@ -1,67 +1,68 @@
-*{
-    color: blueviolet;
+* {
+  color: blueviolet;
 }
 
 h1 {
-    color: blue;
+  color: blue;
 }
 
 [href] {
-    color: #333;
+  color: #333;
 }
 
 .red {
-    color: red;
+  color: red;
 }
 
 #yellow {
-    color: yellow;
+  color: yellow;
 }
 
-[href="https://www.google.com/"] {
-    color: #F924A4;
+[href="https://www.google.com/"]
+{
+  color: #f924a4;
 }
 
-div>p {
-    color: brown;
+div > p {
+  color: brown;
 }
 
 p:hover {
-    color: black;
+  color: black;
 }
 
-div::first-letter{
-    color: blue;
+div::first-letter {
+  color: blue;
 }
 
-div.intro{
-    color: aquamarine;
+div.intro {
+  color: aquamarine;
 }
 
-li a{
-    color: palevioletred !important;
+li span {
+  color: palevioletred;
 }
 
 .dark, .orange {
-    color: darkorange;
+  color: darkorange;
 }
 
-section h2{
-    color: burlywood;
+section h2 {
+  color: burlywood;
 }
 
-h3~span{
-    color: gold;
+h3 ~ span {
+  color: gold;
 }
 
 .block.text {
-    color: slategrey;
+  color: slategrey;
 }
 
-.spring .green{
-    color: mediumspringgreen;
+.spring .green {
+  color: mediumspringgreen;
 }
 
-.text div{
-    color: rgb(210, 151, 34);
+.text div {
+  color: rgb(210, 151, 34);
 }
