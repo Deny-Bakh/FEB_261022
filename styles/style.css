@@ -27,7 +27,7 @@ div > p {
   color: brown;
 }
 
-p:hover {
+.check:hover {
   color: black;
 }
 
