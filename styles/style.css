@@ -7,7 +7,7 @@ h1 {
 }
 
 [href] {
-    color: #000;
+    color: #333;
 }
 
 .red {
@@ -39,10 +39,10 @@ div.intro{
 }
 
 li a{
-    color: blueviolet !important;
+    color: palevioletred !important;
 }
 
-.name1, .name2 {
+.dark, .orange {
     color: darkorange;
 }
 
@@ -58,7 +58,7 @@ h3~span{
     color: slategrey;
 }
 
-.name1 .name2{
+.spring .green{
     color: mediumspringgreen;
 }
 
