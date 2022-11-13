@@ -6,17 +6,19 @@ body {
 
 .main {
   max-width: 1000px;
-  min-width: 890px;
   margin: 0 auto;
 }
 
-.challenge {
+.container {
   overflow: auto;
   background: #e6e6e6;
+}
+
+.container.all {
   margin-bottom: 50px;
 }
 
-.square_left {
+.square-main {
   width: 200px;
   height: 200px;
   background: #fc8f8f;
@@ -24,109 +26,34 @@ body {
   font-weight: 700;
   font-size: 64px;
   text-align: center;
-  vertical-align: middle;
   line-height: 200px;
   float: left;
 }
 
-.square_right {
-  width: 200px;
-  height: 200px;
-  background: #fc8f8f;
-  color: #fff;
-  font-weight: 700;
-  font-size: 64px;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 200px;
+.square-main.right {
   float: right;
-}
-
-.square_left {
-  width: 200px;
-  height: 200px;
-  background: #fc8f8f;
-  color: #fff;
-  font-weight: 700;
-  font-size: 64px;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 200px;
-  float: left;
 }
 
 .wraper {
   float: right;
 }
 
-.small_square {
+.square-main.small {
   width: 100px;
   height: 100px;
-  font-weight: 700;
   font-size: 36px;
-  text-align: center;
-  vertical-align: middle;
   line-height: 100px;
-  background: #fc8f8f;
-  color: #ffffff;
-  float: left;
   margin-right: 15px;
 }
 
-.small_square_last {
-  width: 100px;
-  height: 100px;
-  font-weight: 700;
-  font-size: 36px;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 100px;
-  background: #fc8f8f;
-  color: #ffffff;
-  float: left;
+.square-main.small.last {
+  margin-right: auto;
 }
 
-.third_challenge {
-  overflow: auto;
-  background: #e6e6e6;
-}
-
-.square_left_two {
-  width: 200px;
-  height: 200px;
-  background: #fc8f8f;
-  color: #fff;
-  font-weight: 700;
-  font-size: 64px;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 200px;
-  float: left;
+.square-main.two {
   margin-left: 15px;
 }
 
-.square_right_one {
-  width: 200px;
-  height: 200px;
-  background: #fc8f8f;
-  color: #fff;
-  font-weight: 700;
-  font-size: 64px;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 200px;
-  float: left;
+.square-main.one {
   margin-right: 15px;
-}
-.square_right_two {
-  width: 200px;
-  height: 200px;
-  background: #fc8f8f;
-  color: #fff;
-  font-weight: 700;
-  font-size: 64px;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 200px;
-  float: left;
 }
