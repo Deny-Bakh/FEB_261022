@@ -90,8 +90,7 @@ body {
 }
 
 img {
-  height: 130px;
-  width: 130px;
+  max-width: 100%;
 }
 
 h2 {
@@ -112,12 +111,12 @@ p {
   box-shadow: 5px -5px grey;
   display: inline-block;
   margin: 1rem;
+  padding: 0 5px;
   max-width: 300px;
   background-color: #e0e0e0;
   text-align: center;
   cursor: pointer;
   animation: card 3s linear infinite normal running 0s none;
-  padding: 0 5px;
 }
 
 @keyframes card {
