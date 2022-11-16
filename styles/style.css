@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background: #c4c4c4;
+  margin: 0;
   padding: 50px 0;
 }
 
@@ -9,22 +10,51 @@ body {
   margin: 0 auto;
 }
 
-/* .container::after {
+/* 1.5 метод - Clearfix */
+.wrapper::after {
   content: "";
   clear: both;
   display: table;
 }
 
-.container{
-  background: #e6e6e6;
-} */
-
-.container{
-  overflow: auto;
+.wrapper {
   background: #e6e6e6;
 }
 
-.all {
+/* 1.5 метод - Clearfix */
+/* .wrapper::after {
+  display: block;
+  content: " ";
+  clear: both;
+}
+
+.wrapper{
+  background: #e6e6e6;
+} */
+
+/* 2й метод - Clearfix */
+/* .wrapper {
+  display: flow-root;
+  background: #e6e6e6;
+} */
+
+/* 3й метод - Clearfix */
+/* .wrapper{
+  overflow: auto;
+  background: #e6e6e6;
+} */
+
+/* 4й метод - Clearfix - створити дів в кінці врапера, після квадратів, з класом cleafix.*/
+/* .clearfix {
+    display: block;
+    clear: both;
+}
+
+.wrapper{
+  background: #e6e6e6;
+} */
+
+.margbot {
   margin-bottom: 50px;
 }
 
@@ -60,6 +90,6 @@ body {
   margin-left: 15px;
 }
 
-.margright{
+.margright {
   margin-right: 15px;
 }
