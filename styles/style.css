@@ -38,7 +38,8 @@ main {
   background: #e6e6e6;
 } */
 
-/* 3й метод - Clearfix */
+/* 3й метод - Clearfix - Не використовувати. Працює, але не відображає деякі додаткові атрибути, 
+які можна задати квадрату, наприклад box-shadow. */
 /* .wrapper{
   overflow: auto;
   background: #e6e6e6;
