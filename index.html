@@ -12,7 +12,7 @@
         <h1>Реєстрація:</h1>
     </header>
     <main>
-        <form action="" method="post">
+        <!-- <form action="https://fom.in.ua/echo" method="post">
             <div>
                 <label> Ім'я
                     <input type="text" name="name" placeholder="name">
@@ -30,7 +30,7 @@
             </div>
             <div>
                 <label>Повторити Пароль
-                    <input type="password" name="password-repeat" placeholder="repeat password">
+                    <input type="password" name="password-repeat" placeholder="repeat password" autocomplete="new-password">
                 </label>
             </div> 
             <div>
@@ -48,6 +48,55 @@
                     <input type="email" name="email" placeholder="e-mail">
                 </label>
             </div>
+            <div>
+                <button type="submit">Зареєструватися</button>
+            </div>
+        </form> -->
+        <form action="https://fom.in.ua/echo" method="post">
+            <div>
+                <label for="name">Ім'я</label>
+                <br>
+                <input type="text" id="name" name="username" required>
+            </div>
+            <div>
+                <label for="mail">E-mail</label>
+                <br>
+                <input type="email" id="mail" name="mail" required>
+            </div>
+            <div>
+                <label for="phone">Телефон</label>
+                <br>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div>
+                <span>Стать</span> 
+                <div>
+                    <input type="radio" name="sex" id="sex1" value="male" required>
+                    <label for="sex1">Чоловік</label>
+                </div>
+                <div>
+                    <input type="radio" name="sex" id="sex2" value="female" required>
+                    <label for="sex2">Жінка</label>
+                </div>
+                <div>
+                    <select name="sex" id="sex">
+                        <option disabled selected value="sex">Стать</option>
+                        <option value="male">Чоловік</option>
+                        <option value="female">Жінка</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <label for="password">Пароль (мінімум 8 символів)</label>
+                <br>
+                <input type="password" id="password" name="pass" minlength="8" required>
+            </div>
+            <div>
+                <label for="password_repeat">Повторити Пароль</label>
+                <br>
+                <input type="password" id="password_repeat" name="pass_repeat" minlength="8" required>
+            </div>
+            <br>
             <div>
                 <button type="submit">Зареєструватися</button>
             </div>

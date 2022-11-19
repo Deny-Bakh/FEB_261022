@@ -11,17 +11,38 @@
         <h1>Авторизація:</h1>
     </header>
     <main>
-        <form action="" method="post">
+        <!-- <form action="https://fom.in.ua/echo" method="post">
             <div>
-                <label for="login-authorisation">Логін
-                    <input type="text" name="login" id="login-authorisation">
+                <label>Логін
+                    <input type="text" name="login" id="login-authorisation" required>
                 </label>
             </div>
             <div>
                 <label for="">Пароль
-                    <input type="password" name="password" id="password-authorisation">
+                    <input type="password" name="password" id="password-authorisation1" autocomplete="current-password" required>
                 </label>
             </div>
+            <div>
+                <button type="submit">Авторизація</button>
+            </div>
+        </form> -->
+        <form action="https://fom.in.ua/echo" method="post">
+            <div>
+                <label for="name">Ім'я</label>
+                <br>
+                <input type="text" id="name" name="username" autocomplete="additional-name" required>
+            </div>
+            <div>
+                <label for="password1">Пароль</label>
+                <br>
+                <input type="password" id="password1" name="pass" minlength="8" required>
+            </div>
+            <div>
+                <label for="password2">Запам'ятати Пароль</label>
+                <br>
+                <input type="password" id="password2" name="pass" minlength="8" required>
+            </div>
+            <br>
             <div>
                 <button type="submit">Авторизація</button>
             </div>

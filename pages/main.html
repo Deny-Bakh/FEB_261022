@@ -12,54 +12,75 @@
     <header></header>
     <main>
         <form action="https://fom.in.ua/echo" method="post">
-            <p>Тип Кузова:</p>
-            <div>
-                <input type="checkbox" id="typeOfBody1" name="styleType">
-                <label for="typeOfBody1">Седан</label>
-            </div>
-            <div>
-                <input type="checkbox" id="typeOfBody2" name="styleType">
-                <label for="typeOfBody3">Універсал</label>
-            </div>
-            <div>
-                <input type="checkbox" id="typeOfBody3" name="styleType">
-                <label for="typeOfBody3">Гетчбек</label>
-            </div>
-            <p>Марка Авто:</p>
-            <div>
-                <input type="checkbox" id="carBrand1" name="vehicleName">
-                <label for="carBrand1">BMW</label>
-            </div>
-            <div>
-                <input type="checkbox" id="carBrand2" name="vehicleName">
-                <label for="carBrand2">Mercedes</label>
-            </div>
-            <div>
-                <input type="checkbox" id="carBrand3" name="vehicleName">
-                <label for="carBrand3">KIA</label>
-            </div>
-            <p>Країна Виробник:</p>
-            <div>
-                <input type="checkbox" id="countryMade1" name="country">
-                <label for="countryMade1">USA</label>
-            </div>
-            <div>
-                <input type="checkbox" id="countryMade2" name="country">
-                <label for="countryMade2">Germany</label>
-            </div>
-            <div>
-                <input type="checkbox" id="countryMade3" name="country">
-                <label for="countryMade3">Japan</label>
-            </div>
-            <p>Ціна:</p>
-            <div>
-                <input type="range" name="moneyCost" min="0" max="100000" value="0"
-                    oninput="this.form.costMoney.value=this.value" />
-                <input type="number" name="costMoney" min="0" max="100000" value="0"
-                    oninput="this.form.moneyCost.value=this.value" />
-            </div>
-            <p>Рік Випуску:</p>
-            <div>
+            <fieldset>
+                <legend>Тип Кузова:</legend>
+                <div>
+                    <input type="checkbox" id="typeOfBody1" name="body_style" value="Sedan">
+                    <label for="typeOfBody1">Седан</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="typeOfBody2" name="body_style" value="Station_Wagon">
+                    <label for="typeOfBody3">Універсал</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="typeOfBody3" name="body_style" value="Hatchback">
+                    <label for="typeOfBody3">Гетчбек</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Марка Авто:</legend>
+                <div>
+                    <input type="checkbox" id="carBrand1" name="automotive_brand" value="BMW">
+                    <label for="carBrand1">BMW</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="carBrand2" name="automotive_brand" value="Mercedes">
+                    <label for="carBrand2">Mercedes</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="carBrand3" name="automotive_brand" value="Kia">
+                    <label for="carBrand3">KIA</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="carBrand4" name="automotive_brand" value="Mitsubishi">
+                    <label for="carBrand4">Mitsubishi</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Країна Виробник:</legend>
+                <div>
+                    <input type="checkbox" id="countryMade1" name="country" value="USA">
+                    <label for="countryMade1">USA</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="countryMade2" name="country" value="Germany">
+                    <label for="countryMade2">Germany</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="countryMade3" name="country" value="Japan">
+                    <label for="countryMade3">Japan</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="countryMade4" name="country" value="Korea">
+                    <label for="countryMade4">Korea</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Ціна:</legend>
+                <div>
+                    <input type="number" name="costMoney" min="0" max="100000" value="0"
+                        oninput="this.form.moneyCost.value=this.value">
+                        <br>
+                    <input type="range" name="moneyCost" min="0" max="100000" value="0"
+                        oninput="this.form.costMoney.value=this.value">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Рік Випуску:</legend>
+                <input type="number" name="year" min="2000" max="2022">
+            </fieldset>
+            <fieldset>
+                <legend>Рік Випуску:</legend>
                 <select name="year" id="carYear">
                     <option value="1991">1991</option>
                     <option value="1992">1992</option>
@@ -86,69 +107,95 @@
                     <option value="2013">2013</option>
                     <option value="2014">2014</option>
                     <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
                 </select>
-            </div>
-            <p>Стан:</p>
-            <div>
-                <input type="checkbox" id="typeOfCar1" name="Стан Машини" value="Нова">
-                <label for="typeOfCar1">Нова</label>
-            </div>
-            <div>
-                <input type="checkbox" id="typeOfCar2" name="Стан Машини" value="Бита">
-                <label for="typeOfCar2">Бита</label>
-            </div>
-            <div>
-                <input type="checkbox" id="typeOfCar3" name="Стан Машини" value="Нерозмитнена">
-                <label for="typeOfCar3">Нерозмитнена</label>
-            </div>
-            <div>
-                <input type="checkbox" id="typeOfCar4" name="Стан Машини" value="У кредиті">
-                <label for="typeOfCar4">У кредиті</label>
-            </div>
-            <p>Тип Палива:</p>
-            <div>
-                <input type="checkbox" id="fuelType1" name="fuel">
-                <label for="fuelType1">Бензин</label>
-            </div>
-            <div>
-                <input type="checkbox" id="fuelType2" name="fuel">
-                <label for="fuelType2">Дизель</label>
-            </div>
-            <div>
-                <input type="checkbox" id="fuelType3" name="fuel">
-                <label for="fuelType3">Газ</label>
-            </div>
-            <p>Тип Коробки Передач:</p>
-            <div>
-                <input type="radio" name="Gearbox" id="typeGearbox1" value="Manual Transmission">
-                <label for="typeGearbox1">Механіка</label>
-            </div>
-            <div>
-                <input type="radio" name="Gearbox" id="typeGearbox2" value="Automatic Transmission">
-                <label for="typeGearbox2">Автомат</label>
-            </div>
-            <br>
-            <div>
-                <label for="colorSelection">Колір Машини:</label>
+            </fieldset>
+            <fieldset>
+                <legend>Стан:</legend>
+                <div>
+                    <input type="checkbox" id="typeOfCar1" name="car_condition" value="new">
+                    <label for="typeOfCar1">Нова</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="typeOfCar2" name="car_condition" value="dented">
+                    <label for="typeOfCar2">Бита</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="typeOfCar3" name="car_condition" value="uncleared">
+                    <label for="typeOfCar3">Нерозмитнена</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="typeOfCar4" name="car_condition" value="credit">
+                    <label for="typeOfCar4">У кредиті</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Тип Палива:</legend>
+                <select name="fuel" id="fueltype">
+                    <option value="gasoline">Бензин</option>
+                    <option value="diesel">Дизель</option>
+                    <option value="gas">Газ</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Тип Палива:</legend>
+                <div>
+                    <input type="checkbox" id="fuelType1" name="fuel" value="gasoline">
+                    <label for="fuelType1">Бензин</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="fuelType2" name="fuel" value="diesel">
+                    <label for="fuelType2">Дизель</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="fuelType3" name="fuel" value="gas">
+                    <label for="fuelType3">Газ</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Тип Коробки Передач:</legend>
+                <div>
+                    <input type="radio" name="gearbox" id="typeGearbox1" value="manual">
+                    <label for="typeGearbox1">Механіка</label>
+                </div>
+                <div>
+                    <input type="radio" name="gearbox" id="typeGearbox2" value="automatic">
+                    <label for="typeGearbox2">Автомат</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Колір Машини:</legend>
                 <input type="color" name="color" id="colorSelection">
-            </div>
-            <p>Комфорт:</p>
-            <div>
-                <input type="checkbox" id="comfortType1" name="comfort">
-                <label for="comfortType1">Кондиціонер</label>
-            </div>
-            <div>
-                <input type="checkbox" id="comfortType2" name="comfort">
-                <label for="comfortType2">Магнітола</label>
-            </div>
-            <div>
-                <input type="checkbox" id="comfortType3" name="comfort">
-                <label for="comfortType3">Шкіряний салон</label>
-            </div>
-            <div>
-                <input type="checkbox" id="comfortType4" name="comfort">
-                <label for="comfortType4">Люк</label>
-            </div>
+            </fieldset>
+            <fieldset>
+                <legend>Комфорт:</legend>
+                <div>
+                    <input type="checkbox" id="comfortType1" name="comfort" value="conditioner">
+                    <label for="comfortType1">Кондиціонер</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="comfortType2" name="comfort" value="radio">
+                    <label for="comfortType2">Магнітола</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="comfortType3" name="comfort" value="leather_interior">
+                    <label for="comfortType3">Шкіряний салон</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="comfortType4" name="comfort" value="hatch">
+                    <label for="comfortType4">Люк</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Додаткові Побажання:</legend>
+                <textarea name="other_needs" id="needs" maxlength="50"></textarea>
+            </fieldset>
             <div>
                 <button type="submit">Обрати</button>
             </div>
