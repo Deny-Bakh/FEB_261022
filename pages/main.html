@@ -9,76 +9,56 @@
 </head>
 
 <body>
-    <header></header>
+    <header>
+       <h1>Пошук Автомобіля:</h1>
+    </header>
     <main>
         <form action="https://fom.in.ua/echo" method="post">
             <fieldset>
                 <legend>Тип Кузова:</legend>
-                <div>
-                    <input type="checkbox" id="typeOfBody1" name="body_style" value="Sedan">
-                    <label for="typeOfBody1">Седан</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="typeOfBody2" name="body_style" value="Station_Wagon">
-                    <label for="typeOfBody3">Універсал</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="typeOfBody3" name="body_style" value="Hatchback">
-                    <label for="typeOfBody3">Гетчбек</label>
-                </div>
+                    <input type="checkbox" id="typeOfBody1" name="body_style" value="sedan">
+                    <label for="typeOfBody1">Седан</label><br>
+                    <input type="checkbox" id="typeOfBody2" name="body_style" value="station_wagon">
+                    <label for="typeOfBody2">Універсал</label><br>
+                    <input type="checkbox" id="typeOfBody3" name="body_style" value="hatchback">
+                    <label for="typeOfBody3">Гетчбек</label><br>
             </fieldset>
             <fieldset>
                 <legend>Марка Авто:</legend>
-                <div>
-                    <input type="checkbox" id="carBrand1" name="automotive_brand" value="BMW">
-                    <label for="carBrand1">BMW</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="carBrand2" name="automotive_brand" value="Mercedes">
-                    <label for="carBrand2">Mercedes</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="carBrand3" name="automotive_brand" value="Kia">
-                    <label for="carBrand3">KIA</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="carBrand4" name="automotive_brand" value="Mitsubishi">
-                    <label for="carBrand4">Mitsubishi</label>
-                </div>
+                    <input type="checkbox" id="carBrand1" name="automotive_brand" value="bmw">
+                    <label for="carBrand1">BMW</label><br>
+                    <input type="checkbox" id="carBrand2" name="automotive_brand" value="mercedes">
+                    <label for="carBrand2">Mercedes</label><br>
+                    <input type="checkbox" id="carBrand3" name="automotive_brand" value="kia">
+                    <label for="carBrand3">KIA</label><br>
+                    <input type="checkbox" id="carBrand4" name="automotive_brand" value="mitsubishi">
+                    <label for="carBrand4">Mitsubishi</label><br>
             </fieldset>
             <fieldset>
                 <legend>Країна Виробник:</legend>
-                <div>
-                    <input type="checkbox" id="countryMade1" name="country" value="USA">
-                    <label for="countryMade1">USA</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="countryMade2" name="country" value="Germany">
-                    <label for="countryMade2">Germany</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="countryMade3" name="country" value="Japan">
-                    <label for="countryMade3">Japan</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="countryMade4" name="country" value="Korea">
-                    <label for="countryMade4">Korea</label>
-                </div>
+                    <input type="checkbox" id="countryMade1" name="country" value="usa">
+                    <label for="countryMade1">USA</label><br>
+                    <input type="checkbox" id="countryMade2" name="country" value="germany">
+                    <label for="countryMade2">Germany</label><br>
+                    <input type="checkbox" id="countryMade3" name="country" value="japan">
+                    <label for="countryMade3">Japan</label><br>
+                    <input type="checkbox" id="countryMade4" name="country" value="korea">
+                    <label for="countryMade4">Korea</label><br>
             </fieldset>
             <fieldset>
                 <legend>Ціна:</legend>
                 <div>
-                    <input type="number" name="costMoney" min="0" max="100000" value="0"
-                        oninput="this.form.moneyCost.value=this.value">
+                    <input type="number" name="cost_money" min="0" max="100000" value="0"
+                        oninput="this.form.money_cost.value=this.value">
                         <br>
-                    <input type="range" name="moneyCost" min="0" max="100000" value="0"
-                        oninput="this.form.costMoney.value=this.value">
+                    <input type="range" name="money_cost" min="0" max="100000" value="0"
+                        oninput="this.form.cost_money.value=this.value">
                 </div>
             </fieldset>
-            <fieldset>
+            <!-- <fieldset>
                 <legend>Рік Випуску:</legend>
                 <input type="number" name="year" min="2000" max="2022">
-            </fieldset>
+            </fieldset> -->
             <fieldset>
                 <legend>Рік Випуску:</legend>
                 <select name="year" id="carYear">
@@ -118,56 +98,38 @@
             </fieldset>
             <fieldset>
                 <legend>Стан:</legend>
-                <div>
                     <input type="checkbox" id="typeOfCar1" name="car_condition" value="new">
-                    <label for="typeOfCar1">Нова</label>
-                </div>
-                <div>
+                    <label for="typeOfCar1">Нова</label><br>
                     <input type="checkbox" id="typeOfCar2" name="car_condition" value="dented">
-                    <label for="typeOfCar2">Бита</label>
-                </div>
-                <div>
+                    <label for="typeOfCar2">Бита</label><br>
                     <input type="checkbox" id="typeOfCar3" name="car_condition" value="uncleared">
-                    <label for="typeOfCar3">Нерозмитнена</label>
-                </div>
-                <div>
+                    <label for="typeOfCar3">Нерозмитнена</label><br>
                     <input type="checkbox" id="typeOfCar4" name="car_condition" value="credit">
-                    <label for="typeOfCar4">У кредиті</label>
-                </div>
+                    <label for="typeOfCar4">У кредиті</label><br>
             </fieldset>
-            <fieldset>
+            <!-- <fieldset>
                 <legend>Тип Палива:</legend>
                 <select name="fuel" id="fueltype">
                     <option value="gasoline">Бензин</option>
                     <option value="diesel">Дизель</option>
                     <option value="gas">Газ</option>
                 </select>
-            </fieldset>
+            </fieldset> -->
             <fieldset>
                 <legend>Тип Палива:</legend>
-                <div>
                     <input type="checkbox" id="fuelType1" name="fuel" value="gasoline">
-                    <label for="fuelType1">Бензин</label>
-                </div>
-                <div>
+                    <label for="fuelType1">Бензин</label><br>
                     <input type="checkbox" id="fuelType2" name="fuel" value="diesel">
-                    <label for="fuelType2">Дизель</label>
-                </div>
-                <div>
+                    <label for="fuelType2">Дизель</label><br>
                     <input type="checkbox" id="fuelType3" name="fuel" value="gas">
-                    <label for="fuelType3">Газ</label>
-                </div>
+                    <label for="fuelType3">Газ</label><br>
             </fieldset>
             <fieldset>
                 <legend>Тип Коробки Передач:</legend>
-                <div>
                     <input type="radio" name="gearbox" id="typeGearbox1" value="manual">
-                    <label for="typeGearbox1">Механіка</label>
-                </div>
-                <div>
+                    <label for="typeGearbox1">Механіка</label><br>
                     <input type="radio" name="gearbox" id="typeGearbox2" value="automatic">
-                    <label for="typeGearbox2">Автомат</label>
-                </div>
+                    <label for="typeGearbox2">Автомат</label><br>
             </fieldset>
             <fieldset>
                 <legend>Колір Машини:</legend>
@@ -175,26 +137,18 @@
             </fieldset>
             <fieldset>
                 <legend>Комфорт:</legend>
-                <div>
                     <input type="checkbox" id="comfortType1" name="comfort" value="conditioner">
-                    <label for="comfortType1">Кондиціонер</label>
-                </div>
-                <div>
+                    <label for="comfortType1">Кондиціонер</label><br>
                     <input type="checkbox" id="comfortType2" name="comfort" value="radio">
-                    <label for="comfortType2">Магнітола</label>
-                </div>
-                <div>
+                    <label for="comfortType2">Магнітола</label><br>
                     <input type="checkbox" id="comfortType3" name="comfort" value="leather_interior">
-                    <label for="comfortType3">Шкіряний салон</label>
-                </div>
-                <div>
+                    <label for="comfortType3">Шкіряний салон</label><br>
                     <input type="checkbox" id="comfortType4" name="comfort" value="hatch">
-                    <label for="comfortType4">Люк</label>
-                </div>
+                    <label for="comfortType4">Люк</label><br>
             </fieldset>
             <fieldset>
-                <legend>Додаткові Побажання:</legend>
-                <textarea name="other_needs" id="needs" maxlength="50"></textarea>
+                <legend>Додаткові Побажання: (50 символів)</legend>
+                <textarea name="other_needs" id="needs" maxlength="50" style="resize: none;"></textarea>
             </fieldset>
             <div>
                 <button type="submit">Обрати</button>
