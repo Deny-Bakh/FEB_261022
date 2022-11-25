@@ -1,70 +1,81 @@
-* {
-  margin: 0;
-  padding: 0;
+body{
+    padding: 50px;
+    margin: 0;
 }
 
-.table-title {
-  text-align: center;
+
+.main {
+    margin: 0  auto;
+    background-color: #fff;
 }
 
-table {
-  text-align: center;
-  /* outline-offset: 1px solid black;
-  outline-offset: 3px; */
-  /* border: 1px solid black; */
-  border: 1px solid grey;
-  outline: 2px solid white;
-}
-
-.container {
-  max-width: 581px;
-  margin: 0 auto;
-  text-align: center;
-  border: 2px solid black;
-}
-
-table {
-  display: inline-block;
-  margin: 2px;
-  border-spacing: 5px 1px;
-  padding: 5px 0;
-}
-
-th,
-td {
-  padding: 3px;
-}
-
-/* .one{
-    float: left;
-}
-.two {
-    float: right;
-} */
-
-/* h4{
-    text-align: center;
-}
-
-.container{
-    width: 450px;
-    max-width: 100%;
-    margin: 0 auto;
-    border: 1px solid black;
-    outline: 2px solid black;
-    overflow: auto;
+caption{
+    text-transform: uppercase;
 }
 
 table{
+    empty-cells: hide;
+    border: 1px dotted black;
+    text-align: center;
+    background-color: lightcoral;
+}
+
+.month{
+    border-spacing: 5px 3px;
+    padding: 2px 0;
+}
+
+td, th{
     border: 1px solid black;
 }
 
-.left{
-    max-width: 25%;
-    float: left;
+.for_table{
+    border: none;
 }
 
-.right{
-    max-width: 25%;
-    float: right;
-} */
+th{
+    background-color: grey;
+}
+
+th:hover{
+    background-color: aqua;
+}
+
+col:first-child{
+    background-color: yellow;
+    color: black;
+}
+
+col:nth-child(7){
+    background-color: red;
+}
+
+col:last-child{
+    background-color: red;
+}
+
+.month_name{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.month_name:hover{
+    background-color: aquamarine;
+    color: blue;
+}
+
+.january{
+    background-color: blueviolet;
+}
+
+.february{
+    background-color: lightblue;
+}
+
+.march{
+    background-color: pink;  
+}
+
+.april{
+    background-color: lawngreen;
+}
