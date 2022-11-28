@@ -35,12 +35,11 @@ td, th{
 
 th{
     background-color: grey;
-    /* transition: all 0.8s ease-in-out; */
+    transition: all 0.8s ease-in-out;
 }
 
 th:hover{
     background-color: aqua;
-    transition: all 0.8s ease-in-out;
 }
 
 col:first-child{
@@ -59,12 +58,12 @@ col:last-child{
 .month_name{
     color: #fff;
     text-transform: uppercase;
+    transition: all 1s ease-in; 
 }
 
 .month_name:hover{
     background-color: aquamarine;
     color: blue;
-    transition: all 1s ease-in;
 }
 
 .january{
