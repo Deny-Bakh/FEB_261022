@@ -3,7 +3,6 @@ body{
     margin: 0;
 }
 
-
 .main {
     margin: 0  auto;
     background-color: #fff;
@@ -11,13 +10,18 @@ body{
 
 caption{
     text-transform: uppercase;
+    font-weight: 700;
 }
 
 table{
     empty-cells: hide;
-    border: 1px dotted black;
+    border: 1px dotted red;
     text-align: center;
     background-color: lightcoral;
+}
+
+.for_month{
+    border: none;
 }
 
 .month{
@@ -29,16 +33,14 @@ td, th{
     border: 1px solid black;
 }
 
-.for_table{
-    border: none;
-}
-
 th{
     background-color: grey;
+    /* transition: all 0.8s ease-in-out; */
 }
 
 th:hover{
     background-color: aqua;
+    transition: all 0.8s ease-in-out;
 }
 
 col:first-child{
@@ -47,7 +49,7 @@ col:first-child{
 }
 
 col:nth-child(7){
-    background-color: red;
+    background-color: blueviolet;
 }
 
 col:last-child{
@@ -62,10 +64,11 @@ col:last-child{
 .month_name:hover{
     background-color: aquamarine;
     color: blue;
+    transition: all 1s ease-in;
 }
 
 .january{
-    background-color: blueviolet;
+    background-color: blue;
 }
 
 .february{
