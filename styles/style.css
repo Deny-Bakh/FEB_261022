@@ -1,0 +1,114 @@
+@import url(./common.css);
+
+.container {
+  width: 100%;
+  max-width: calc(1110px + 2rem);
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.header {
+  background: #eeeff1;
+  padding: 79px 0 141px 0;
+  margin-bottom: 112px;
+}
+
+.text_block {
+  max-width: 540px;
+}
+
+.main_title {
+  margin-bottom: 60px;
+}
+
+.main_text {
+  margin-bottom: 65px;
+}
+
+.nav_bar {
+  margin-bottom: 151px;
+}
+
+.nav_link {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.nav_link + .nav_link {
+  margin-left: 42px;
+}
+
+.nav_link:hover {
+  color: #34547a;
+}
+
+.button {
+  max-width: 225px;
+  max-height: 65px;
+  letter-spacing: 0.1em;
+  background: #34547a;
+  text-align: center;
+  line-height: 65px;
+  color: #ffffff;
+}
+
+.center {
+  text-align: center;
+  max-width: 540px;
+  margin: 0 auto;
+}
+
+.secondary_title {
+  margin-bottom: 50px;
+}
+
+.about_text {
+  margin-bottom: 100px;
+}
+
+.color {
+  color: var(--color-grey);
+}
+
+.images_text {
+  background: #34547a;
+  margin-bottom: 100px;
+}
+
+.project_block{
+  margin-left: 70px;
+  margin-right: 45px;
+}
+
+.projects {
+  display: inline-block;
+  text-align: center;
+}
+
+img {
+  position: absolute;
+  display: inline;
+}
+
+.small_title {
+  color: #ffffff;
+  font-size: 21px;
+  position: relative;
+  /* margin-bottom: 5px; */
+}
+
+.inline {
+  position: relative;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.gap {
+  padding: 100px 0;
+}
+
+footer {
+  padding: 50px 0;
+}
