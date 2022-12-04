@@ -130,6 +130,7 @@ a {
 .video-container{
   max-width: 1110px;
   margin: 0 auto;
+  font-size: 0;
 }
 
 .video {
