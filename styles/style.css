@@ -36,7 +36,7 @@ a {
 }
 
 .nav-link:hover {
-  color: #34547a;
+  color: var(--color-blue);
 }
 
 .nav-link + .nav-link {
