@@ -117,11 +117,19 @@ a {
   vertical-align: top;
 }
 
+.card{
+  font-size: 0;
+}
+
 .project-header {
   font-weight: 500;
   font-size: 21px;
   line-height: 25px;
   margin-bottom: 4px;
+}
+
+.project-text{
+  font-size: 16px;
 }
 
 .content + .content {
