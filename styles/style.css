@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    background-image: url(../image/0414ebf922b1f710962e13cea72320f404ebb28d.jpg);
+    background-size: cover;
+  }
+  
+  .menu{
+    background-color: rgba(33, 135, 124, 0.74);
+  }
+  
+  .menu a{
+    text-decoration: none;
+    /* display: block; */
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  
+  .menu_list {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+    min-height: 50px;
+  }
+  
+  .menu_link {
+    min-width: 150px;
+    /* padding: 10px; */
+    font-weight: 500;
+    line-height: 50px;
+  }
+  
+  .menu_list > li {
+    display: inline-block;
+    margin-right: -5px;
+    min-width: 150px;
+    /* padding: 15px; */
+  }
+  
+  .menu li{
+    list-style: none;
+    position: relative;
+    text-align: center;
+  }
+  
+  .sub_menu_list {
+    position: absolute;
+    display: none;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    min-width: 150px;
+    padding-top: 15px;
+  }
+  
+  .sub_menu_list > li{
+    background-color: rgb(94, 141, 212);
+    padding: 5px;
+    margin-bottom: 3px;
+  
+  }
+  
+  .sub_menu_link{
+    /* display: inline-block; */
+  }
+  
+  .menu_list > li:hover .sub_menu_list {
+    display: block;
+  }
+  
+  .sub_sub_menu_list {
+    position: absolute;
+    display: none;
+    left: 100%;
+    top: 0;
+    min-width: 150px;
+    padding-left: 3px;
+  }
+  
+  .sub_menu_list > li:hover .sub_sub_menu_list {
+    display: block;
+  }
+  
+  .sub_sub_menu_list > li{
+    background-color: rgb(94, 141, 212);
+    padding: 5px;
+    margin-bottom: 3px;
+  }
+  
+  /* ul li:hover{
+    background-color: rgb(23, 73, 149);
+  }
+  
+  ul li a:hover{
+    background-color: rgb(23, 73, 149);
+  } */
+  
+  
+  
+  .menu_list > li:hover{
+    background-color: rgb(23, 73, 149);
+    
+  }
+  
+  .sub_menu_list > li:hover{
+    background-color: rgb(184, 200, 223);
+  }
+  
+  .sub_sub_menu_list > li:hover{
+    background-color: rgb(109, 29, 185);
+  }
+  
+  .menu_list:hover{
+    /* border-bottom: 5px solid brown; */
+  }
+  
+  .menu:hover{
+    border-bottom: 5px solid #ffffff;
+    margin-bottom: -5px;
+  }
+  
