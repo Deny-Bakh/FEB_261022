@@ -13,11 +13,12 @@
   
   .menu{
     background-color: rgba(33, 135, 124, 0.74);
+    border-bottom: 10px solid transparent;
   }
   
   .menu a{
     text-decoration: none;
-    /* display: block; */
+    display: block;
     color: #ffffff;
     text-transform: uppercase;
   }
@@ -26,14 +27,15 @@
     width: 100%;
     max-width: 1110px;
     margin: 0 auto;
-    min-height: 50px;
+    /* min-height: 45px; */
   }
   
   .menu_link {
     min-width: 150px;
-    /* padding: 10px; */
+    padding: 20px;
     font-weight: 500;
-    line-height: 50px;
+    /* line-height: 45px; */
+    text-align: center;
   }
   
   .menu_list > li {
@@ -46,7 +48,6 @@
   .menu li{
     list-style: none;
     position: relative;
-    text-align: center;
   }
   
   .sub_menu_list {
@@ -55,16 +56,21 @@
     top: 40px;
     left: 0;
     width: 100%;
-    min-width: 150px;
-    padding-top: 15px;
+    min-width: 300px;
+    padding-top: 33px;
   }
   
   .sub_menu_list > li{
     background-color: rgb(94, 141, 212);
-    padding: 5px;
+    padding: 20px;
     margin-bottom: 3px;
-  
   }
+
+    span{
+    float: right;
+    text-align: right;
+  }
+
   
   .sub_menu_link{
     /* display: inline-block; */
@@ -79,7 +85,7 @@
     display: none;
     left: 100%;
     top: 0;
-    min-width: 150px;
+    min-width: 300px;
     padding-left: 3px;
   }
   
@@ -89,19 +95,9 @@
   
   .sub_sub_menu_list > li{
     background-color: rgb(94, 141, 212);
-    padding: 5px;
+    padding: 20px;
     margin-bottom: 3px;
   }
-  
-  /* ul li:hover{
-    background-color: rgb(23, 73, 149);
-  }
-  
-  ul li a:hover{
-    background-color: rgb(23, 73, 149);
-  } */
-  
-  
   
   .menu_list > li:hover{
     background-color: rgb(23, 73, 149);
@@ -116,12 +112,7 @@
     background-color: rgb(109, 29, 185);
   }
   
-  .menu_list:hover{
-    /* border-bottom: 5px solid brown; */
-  }
-  
   .menu:hover{
-    border-bottom: 5px solid #ffffff;
-    margin-bottom: -5px;
+    border-bottom: 10px solid rgb(23, 73, 149);
   }
   
