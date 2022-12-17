@@ -85,9 +85,3 @@
   .sub_sub_menu_list > li:hover{
     background-color: rgb(109, 29, 185);
   }
-
-  /* .sub_menu_link::after{
-    content: "+";
-    position: absolute;
-    right: 5%;
-  } */
