@@ -5,15 +5,13 @@
   }
   
   body {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    background-image: url(../image/0414ebf922b1f710962e13cea72320f404ebb28d.jpg);
-    background-size: cover;
+    background: url(../image/0414ebf922b1f710962e13cea72320f404ebb28d.jpg) 0 0/cover no-repeat;
   }
-  
+
   .menu{
     background-color: rgba(33, 135, 124, 0.74);
-    border-bottom: 10px solid transparent;
   }
   
   .menu a{
@@ -30,51 +28,36 @@
   }
   
   .menu_link {
-    padding: 20px;
-    font-weight: 500;
+    font-weight: 700;
     text-align: center;
+    padding: 15px 20px;
   }
   
   .menu_list > li {
     display: inline-block;
     margin-right: -5px;
   }
-  
-  .menu li{
-    list-style: none;
-    position: relative;
-  }
 
-  .plus_plus:hover::after{
-    content: "+";
-    position: absolute;
+  .menu li{
+    position: relative;
+    list-style: none;
   }
   
   .sub_menu_list {
+    top: 100%;
+    left: 0;
+  }
+  
+  .list{
+    background-color: rgb(94, 141, 212);
     position: absolute;
     display: none;
-    top: 40px;
-    left: 0;
-    width: 100%;
-    min-width: 300px;
-    padding-top: 33px;
-  }
-  
-  .sub_menu_list > li{
-    background-color: rgb(94, 141, 212);
-    margin-bottom: 3px;
-    position: relative;
-  }
-
-  
-  .after:hover::after{
-    content: "+";
-    position: absolute;
-    right: 5%;
+    min-width: 200px;
+    z-index: 5;
   }
   
   .sub_menu_link{
-    padding: 20px;
+    padding: 10px 20px;
   }
   
   .menu_list > li:hover .sub_menu_list {
@@ -82,22 +65,12 @@
   }
   
   .sub_sub_menu_list {
-    position: absolute;
-    display: none;
     left: 100%;
     top: 0;
-    min-width: 300px;
-    padding-left: 3px;
   }
-  
+
   .sub_menu_list > li:hover .sub_sub_menu_list {
     display: block;
-  }
-  
-  .sub_sub_menu_list > li{
-    background-color: rgb(94, 141, 212);
-    padding: 20px;
-    margin-bottom: 3px;
   }
   
   .menu_list > li:hover{
@@ -111,8 +84,9 @@
   .sub_sub_menu_list > li:hover{
     background-color: rgb(109, 29, 185);
   }
-  
-  .menu:hover{
-    border-bottom: 10px solid rgb(23, 73, 149);
-  }
-  
+
+  /* .sub_menu_link::after{
+    content: "+";
+    position: absolute;
+    right: 5%;
+  } */
