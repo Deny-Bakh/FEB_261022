@@ -1,0 +1,470 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  body {
+    font-family: "Raleway", sans-serif;
+    background-color: #ffffff;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: calc(1150px + 2rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0 auto;
+  }
+  
+  .header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d8d8d8;
+    box-shadow: 0px 0px 8px rgba(83, 109, 122, 0.29);
+  }
+  
+  .logo_nav {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .logo {
+    width: 155px;
+    height: 55px;
+  }
+  
+  .nav_bar {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .space_between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav_link {
+    display: flex;
+    /* align-items: center; */
+    gap: 5px;
+    color: #1d2f38;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .letter {
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .section_color {
+    background-color: #e3ebf1;
+    border-radius: 10px;
+    padding: 50px;
+    display: flex;
+    gap: 50px;
+  }
+  
+  /* .main {
+    padding-top: 60px;
+  } */
+  
+  .section_one_padding {
+    padding-top: 60px;
+    padding-bottom: 77px;
+  }
+  
+  .text_card {
+    padding-top: 14px;
+  }
+  
+  .template_button {
+    display: inline-block;
+    padding: 15px;
+    background-color: #17a550;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #ffffff;
+  }
+  
+  .green_color {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #10843f;
+    margin-bottom: 8px;
+  }
+  
+  .main_name {
+    font-family: "Bitter", sans-serif;
+    font-weight: 400;
+    font-size: 47px;
+    line-height: 52px;
+    color: #1d2f38;
+    margin-bottom: 22px;
+  }
+  
+  .bold {
+    font-weight: 700;
+  }
+  
+  .text {
+    max-width: 474px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333333;
+    margin-bottom: 25px;
+  }
+  
+  .blog_section {
+    padding-bottom: 100px;
+  }
+  
+  .section_name {
+    font-family: "Bitter", sans-serif;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 40px;
+    color: #1d2f38;
+    margin-bottom: 33px;
+  }
+  
+  .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left_part {
+    max-width: 555px;
+    margin-bottom: 75px;
+  }
+  
+  .block {
+    display: block;
+  }
+  
+  .column_cards {
+    max-width: 555px;
+  }
+  
+  /* .card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  } */
+  
+  .img_margin {
+    width: 555px;
+    height: 400px;
+    margin-bottom: 9px;
+  }
+  
+  .grass_info {
+    font-family: "Bitter", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #1d2f38;
+    margin-bottom: 13px;
+  }
+  
+  .grass_text {
+    font-size: 15px;
+    line-height: 20px;
+    color: #1d2f38;
+  }
+  
+  .blog_sub_text {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #1d2f38;
+  }
+  
+  .view_all {
+    display: flex;
+    line-height: 20px;
+    color: #1d2f38;
+    gap: 4px;
+  }
+  
+  .small_section {
+    padding: 30px 40px 30px 30px;
+    display: flex;
+    background-image: url(../images/IMAGE-4.png);
+    justify-content: space-between;
+    margin-bottom: 97px;
+  }
+  
+  .wrench_text {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .lawncare_name {
+    font-family: "Bitter", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    color: #1d2f38;
+  }
+  
+  .product_section {
+    padding-bottom: 100px;
+  }
+  
+  .row_cards {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .card_row {
+    background-color: #f7f9fa;
+    border-radius: 10px;
+  }
+  
+  .backholder {
+    padding: 15px;
+    min-width: 357px;
+    min-height: 200px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    margin-bottom: 24px;
+  }
+  
+  .lawn {
+    background-image: url(../images/Frame.jpg);
+  }
+  
+  .earth {
+    background-image: url(../images/Frame-2.jpg);
+  }
+  
+  .hedge {
+    background-image: url(../images/Frame-3.jpg);
+  }
+  
+  .pic_text {
+    display: inline-block;
+    padding: 5px 10px;
+    background: rgba(29, 47, 56, 0.8);
+    border-radius: 3px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #ffffff;
+  }
+  
+  .for_text {
+    padding-left: 25px;
+    padding-right: 32px;
+  }
+  
+  .bottom_space {
+    padding-bottom: 39px;
+  }
+  
+  .signup {
+    display: flex;
+    padding: 50px;
+    background-image: url(../images/IMAGE-5.png);
+  }
+  
+  .input_section {
+    padding-bottom: 100px;
+  }
+  
+  .newsletter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 31px;
+  }
+  
+  .letter_name {
+    font-family: "Bitter", sans-serif;
+    font-size: 30px;
+    line-height: 35px;
+    color: #1d2f38;
+  }
+  
+  .letter_info {
+    font-size: 18px;
+    line-height: 24px;
+    color: #1d2f38;
+    margin-bottom: 24px;
+  }
+  
+  .mail {
+    display: block;
+    min-width: 500px;
+    background: #ffffff;
+    border: 1px solid #aabcc5;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #536d7a;
+    margin-bottom: 31px;
+    outline: none;
+  }
+  
+  .submit_button {
+    display: inline-block;
+    background: #ffc728;
+    border-radius: 5px;
+    padding: 15px 20px;
+    border: none;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    color: #000000;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .rules {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 20px;
+    color: #536d7a;
+  }
+  
+  .footer {
+    background-color: #f7f9fa;
+  }
+  
+  .company_info {
+    max-width: 306px;
+  }
+  
+  .footer_logo {
+    margin-bottom: 19px;
+  }
+  
+  .social_media {
+    font-size: 16px;
+    line-height: 20px;
+    color: #1d2f38;
+    margin-bottom: 19px;
+  }
+  
+  .latest_articles {
+    max-width: 355px;
+  }
+  
+  .article_title {
+    font-family: "Bitter";
+    font-style: normal;
+    font-size: 30px;
+    line-height: 35px;
+    color: #333333;
+    margin-bottom: 13px;
+  }
+  
+  .img_card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .article_text {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+  }
+  
+  .info_section {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 79px;
+  }
+  
+  .footer_browse {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer_nav {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-bottom: 27px;
+  }
+  
+  .footer_nav_link {
+    line-height: 20px;
+    color: #1d2f38;
+  }
+  
+  .copyright {
+    border-top: 1px solid #536d7a;
+    padding-top: 20px;
+  }
+  
+  .search {
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #aabcc5;
+    border-radius: 7px;
+  }
+  
+  .searchbox {
+    border: none;
+    outline: none;
+    border-radius: 5px 0 0 5px;
+    width: 100%;
+    min-width: 274px;
+    padding: 20px;
+  }
+  
+  .search_button {
+    display: flex;
+    align-items: center;
+    padding: 14px 20px;
+    background: #768f9c;
+    border-radius: 0 5px 5px 0;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .website_info {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 22px;
+    padding-bottom: 20px;
+    border-top: 1px solid #536d7a;
+  }
+  
+  .summary {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .summary_info {
+    font-size: 12px;
+    line-height: 20px;
+    color: #1d2f38;
+  }
+  
