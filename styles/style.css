@@ -9,6 +9,10 @@ a {
   color: inherit;
 }
 
+img{
+  max-width: 100%;
+}
+
 body {
   font-family: "Raleway", sans-serif;
   background-color: #ffffff;
@@ -32,21 +36,6 @@ body {
 .logo_nav {
   display: flex;
   gap: 30px;
-}
-
-.header_logo{
-  width: 155px;
-  height: 55px;
-}
-
-.nav_image{
-  width: 19px;
-  height: 19px;
-}
-
-.letter_signup{
-  width: 37px;
-  height: 27px;
 }
 
 .nav_bar {
@@ -82,17 +71,19 @@ body {
   gap: 50px;
 }
 
+.image_woman{
+  width: 100%;
+  max-width: 500px;
+}
+
 .section_one_padding {
   padding-top: 60px;
   padding-bottom: 77px;
 }
 
-.woman_board{
-  width: 500px;
-  height: 386px;
-}
-
 .text_card {
+  width: 100%;
+  max-width: 500px;
   padding-top: 14px;
 }
 
@@ -129,6 +120,7 @@ body {
 }
 
 .text {
+  width: 100%;
   max-width: 474px;
   font-weight: 400;
   font-size: 18px;
@@ -165,12 +157,6 @@ body {
   display: inline-block;
 }
 
-.section_small_image{
-  width: 100%;
-  max-width: 245px;
-  height: auto;
-}
-
 .column_cards {
   display: flex;
   flex-direction: column;
@@ -183,9 +169,6 @@ body {
   }
 
 .img_margin {
-  width: 100%;
-  max-width: 555px;
-  height: auto;
   margin-bottom: 9px;
 }
 
@@ -220,11 +203,6 @@ body {
   gap: 4px;
 }
 
-.play_image{
-  width: 20px;
-  height: 20px;
-}
-
 .small_section {
   padding: 30px 40px 30px 30px;
   display: flex;
@@ -237,11 +215,6 @@ body {
   display: flex;
   align-items: center;
   gap: 12px;
-}
-
-.wrench{
-  width: 50px;
-  height: 50px;
 }
 
 .lawncare_name {
@@ -274,12 +247,6 @@ body {
   margin-bottom: 24px;
 }
 
-.section_image_selection{
-  width: 100%;
-  max-width: 357px;
-  height: auto;
-}
-
 .pic_text {
   position: absolute;
   top: 15px;
@@ -305,12 +272,6 @@ body {
   background: url(../images/IMAGE-5.png) 0 0/100% 100% no-repeat;
 }
 
-.letter_logo{
-  width: 100%;
-  max-width: 500px;
-  height: auto;
-}
-
 .input_information {
   width: 100%;
   max-width: 500px;
@@ -325,11 +286,6 @@ body {
   align-items: center;
   gap: 10px;
   margin-bottom: 31px;
-}
-
-.letter_email{
-  width: 60px;
-  height: 60px;
 }
 
 
@@ -403,16 +359,6 @@ body {
   margin-bottom: 19px;
 }
 
-.footer_logo_image{
-  width: 175px;
-  height: 60px;
-}
-
-.social_media{
-  width: 40px;
-  height: 40px;
-}
-
 /* .social_media {
   font-size: 16px;
   line-height: 20px;
@@ -444,11 +390,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
-}
-
-.footer_section_image{
-  width: 139px;
-  height: 100px;
 }
 
 .article_text {
