@@ -260,8 +260,9 @@ body {
 }
 
 .for_text {
-  padding-left: 25px;
-  padding-right: 32px;
+  width: 100%;
+  max-width: 299px;
+  margin: 0 auto;
   padding-bottom: 39px;
 }
 
