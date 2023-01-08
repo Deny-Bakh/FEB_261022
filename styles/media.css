@@ -59,7 +59,6 @@
 
   .sm_container_header{
     max-width: 100%;
-    padding: 0;
   }
 
   .sm_container_main {
@@ -75,8 +74,6 @@
       "b b"
       "a c";
       gap: 15px;
-      padding-left: 1rem;
-      padding-right: 1rem;
   }
 
   .logo{
