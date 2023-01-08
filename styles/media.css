@@ -29,8 +29,6 @@
       "b"
       "a"
       "c";
-    padding-left: 1rem;
-    padding-right: 1rem;
   }
 
   .bot_menu {
@@ -77,6 +75,8 @@
       "b b"
       "a c";
       gap: 15px;
+      padding-left: 1rem;
+      padding-right: 1rem;
   }
 
   .logo{
