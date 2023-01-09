@@ -81,6 +81,14 @@
     z-index: 5;
   }
 
+  .logo_big{
+    display: none;
+  }
+
+  .logo_small{
+    display: block;
+  }
+
   .logo_pic {
     display: none;
   }

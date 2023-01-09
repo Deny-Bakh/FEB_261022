@@ -62,6 +62,14 @@ a {
   gap: 4px;
 }
 
+.logo_big{
+  display: block;
+}
+
+.logo_small{
+  display: none;
+}
+
 .line_height_pic{
   line-height: 0;
 }
