@@ -25,10 +25,6 @@ a {
   display: block;
 }
 
-picture{
-  display: flex;
-}
-
 .header {
   padding-top: 50px;
 }
@@ -64,6 +60,10 @@ picture{
   display: flex;
   align-items: flex-start;
   gap: 4px;
+}
+
+.line_height_pic{
+  line-height: 0;
 }
 
 .page_name {
