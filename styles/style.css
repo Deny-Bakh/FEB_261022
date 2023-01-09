@@ -66,10 +66,6 @@ picture{
   gap: 4px;
 }
 
-.logo_pic_small{
-  display: none;
-}
-
 .page_name {
   font-size: 36px;
   line-height: 44px;
