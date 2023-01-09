@@ -72,19 +72,10 @@ picture{
   color: #323264;
 }
 
-/* .menu {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 16px;
-} */
-
 .top_menu {
   display: flex;
   align-items: center;
-  /* flex-direction: row; */
   gap: 6px;
-  /* margin-bottom: 16px; */
 }
 
 .language_nav {
