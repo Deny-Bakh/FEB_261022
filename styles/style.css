@@ -25,6 +25,10 @@ a {
   display: block;
 }
 
+picture{
+  display: flex;
+}
+
 .header {
   padding-top: 50px;
 }
@@ -63,10 +67,6 @@ a {
 }
 
 .logo_pic_small{
-  display: none;
-}
-
-.slash_small{
   display: none;
 }
 

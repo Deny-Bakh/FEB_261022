@@ -16,10 +16,16 @@
         <div class="container sm_container_header">
             <div class="wrapper_header">
                 <a href="#" class="logo" id="a">
-                    <img class="slash" src="./images/Logo.svg" alt="Logo">
-                    <img class="slash" src="./images/Slash.svg" alt="slash">
-                    <img class="slash_small" src="./images/Logo_small.svg" alt="logo_small">
-                    <img class="slash_small" src="./images/Slash_small.svg" alt="slash_small">
+                    <picture>
+                        <source srcset="./images/Logo.svg" media="(min-width:577px">
+                        <source srcset="./images/Logo_small.svg" media="(max-width:576px">
+                        <img src="./images/Logo.png" alt="Logo">
+                    </picture>
+                    <picture>
+                        <source srcset="./images/Slash.svg" media="(min-width:577px">
+                        <source srcset="./images/Slash_small.svg" media="(max-width:576px">
+                        <img src="./images/Logo.png" alt="Logo">
+                    </picture>
                     <p class="page_name">team</p>
                 </a>
                 <div class="top_menu" id="b">
