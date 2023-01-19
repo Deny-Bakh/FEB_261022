@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../fonts/font.css">
+    <link rel="stylesheet" href="../styles/contact.css">
+    <link rel="stylesheet" href="../styles/media_contact.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container sm_container_header">
+            <div class="wrapper_header">
+                <a href="#" class="logo" id="a">
+                    <picture class="line_height_pic">
+                        <source srcset="../images/Logo.svg" media="(min-width:577px)">
+                        <source srcset="../images/Logo_small.svg" media="(max-width:576px)">
+                        <img src="../images/Logo.svg" alt="Logo">
+                    </picture>
+                    <picture class="line_height_pic">
+                        <source srcset="../images/Slash.svg" media="(min-width:577px)">
+                        <source srcset="../images/Slash_small.svg" media="(max-width:576px)">
+                        <img src="../images/Logo.svg" alt="Logo">
+                    </picture>
+                    <p class="page_name">contact</p>
+                </a>
+                <div class="top_menu" id="b">
+                    <div class="language_nav">
+                        <a class="language" href="#">УК</a>
+                        <a class="language" href="#">РУ</a>
+                        <a class="active">EN</a>
+                    </div>
+                    <span class="dot"></span>
+                    <a class="street" href="https://goo.gl/maps/TYSp5v7BjKmbazHn8" target="_blank">Kyiv, Mechnikova str,
+                        14/1</a>
+                    <span class="dot"></span>
+                    <a class="phone" href="tel:0800-211-927">0800 211 927</a>
+                    <span class="dot"></span>
+                    <a class="facebook" href="https://www.facebook.com/" target="_blank"><svg width="24" height="25"
+                            viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M24 12.5733C24 5.90541 18.6274 0.5 12 0.5C5.37258 0.5 0 5.90541 0 12.5733C0 18.5995 4.38823 23.5943 10.125 24.5V16.0633H7.07813V12.5733H10.125V9.91343C10.125 6.88755 11.9165 5.21615 14.6576 5.21615C15.9705 5.21615 17.3438 5.45195 17.3438 5.45195V8.42313H15.8306C14.3399 8.42313 13.875 9.35379 13.875 10.3086V12.5733H17.2031L16.6711 16.0633H13.875V24.5C19.6118 23.5943 24 18.5995 24 12.5733Z"
+                                fill="#B3B3BA" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="navigation">
+                    <input class="toggle_menu" type="checkbox" name="toggle_menu" id="toggle_menu">
+                    <div class="hamburger"></div>
+                    <nav class="bot_menu_nav" id="c">
+                        <ul class="bot_menu">
+                            <li><a class="nav_link" href="#">about us</a>
+                            </li>
+                            <li><a class="nav_link" href="#">services</a>
+                            </li>
+                            <li><a class="nav_link" href="../index.html">team</a>
+                            </li>
+                            <li><a class="nav_link" href="#">publications</a>
+                            </li>
+                            <li><a class="active_page">contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container container_main sm_container_main">
+            <div class="wrapper_main">
+                <div class="contact_card">
+                    <a class="adress_contact contact_size" href="https://goo.gl/maps/TYSp5v7BjKmbazHn8">Kyiv,<br>Mechnikova str,
+                        14</a>
+                        <div class="contact_box">
+                            <a class="phone_contact contact_size" href="tel:0800-211-927">0800 211 927</a>
+                            <a class="email_contact contact_size" href="mailto:contact@forstudy.space">contact@forstudy.space</a>
+                        </div>
+                    <a class="facebook_contact" href="https://www.facebook.com/" target="_blank"><svg width="38"
+                            height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_80918_1083)">
+                                <path
+                                    d="M38 19.1161C38 8.55857 29.4934 0 19 0C8.50658 0 0 8.55857 0 19.1161C0 28.6575 6.94803 36.5659 16.0312 38V24.6419H11.207V19.1161H16.0312V14.9046C16.0312 10.1136 18.8678 7.46723 23.2078 7.46723C25.2866 7.46723 27.4609 7.84059 27.4609 7.84059V12.545H25.0651C22.7048 12.545 21.9688 14.0185 21.9688 15.5302V19.1161H27.2383L26.3959 24.6419H21.9688V38C31.052 36.5659 38 28.6575 38 19.1161Z"
+                                    fill="#24A3FF" />
+                            </g>
+                        </svg>
+                        <span class="facebook_contact_text">Our page<br>on facebook</span>
+                    </a>
+                </div>
+                    <form name="form_contact" id="form_contact" class="form_contact">
+                        <h1 class="main_text_form">We would like to help you</h1>
+                        <div class="name_wrapper">
+                            <label>
+                                <input oninput="validationName()" class="name_contact input width_padding" type="text" id="name"
+                                    name="name" placeholder="Name" autocomplete="off" required pattern="^[A-Z][a-zA-Z]+$" title="Only letters. First capital">
+                            </label>
+                            <label>
+                                <textarea oninput="validationMessages()" class="message_contact input"
+                                    name="message_contact" id="message_contact" placeholder="Message" autocomplete="off"
+                                    required></textarea>
+                            </label>
+                        </div>
+                        <div class="answer_wrapper">
+                            <h3 class="answer_contact">How to answer you?</h3>
+                            <label>
+                                <input oninput="validationPhone()" class="phone_answer_contact input width_padding" type="tel"
+                                    id="phone_answer_contact" name="phone_answer_contact" placeholder="Phone number" autocomplete="off"
+                                    required pattern="\d{7,11}" title="Only digits. 7 digits minimum">
+                            </label>
+                            <label>
+                                <input oninput="validationEmail()" class="email_answer_contact input width_padding"
+                                    type="email" id="email" name="email" placeholder="Email" autocomplete="off" required
+                                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Example: pedro@thebest.com">
+                            </label>
+                        </div>
+                        <button onclick="validateForm()" id="btn_contact" class="btn_contact" type="submit">Send
+                            message</button>
+                    </form>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="wrapper_footer">
+                <div class="information_holder">
+                    <div class="company_information">
+                        <p class="adress">Kyiv, Mechnikova str, 14/1</p>
+                        <span class="dot dot_color"></span>
+                        <a class="map" href="https://goo.gl/maps/TYSp5v7BjKmbazHn8" target="_blank">On map</a>
+                    </div>
+                    <div class="social_phone">
+                        <a class="facebook_footer" href="https://www.facebook.com/" target="_blank"><svg width="38"
+                                height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_80918_1083)">
+                                    <path
+                                        d="M38 19.1161C38 8.55857 29.4934 0 19 0C8.50658 0 0 8.55857 0 19.1161C0 28.6575 6.94803 36.5659 16.0312 38V24.6419H11.207V19.1161H16.0312V14.9046C16.0312 10.1136 18.8678 7.46723 23.2078 7.46723C25.2866 7.46723 27.4609 7.84059 27.4609 7.84059V12.545H25.0651C22.7048 12.545 21.9688 14.0185 21.9688 15.5302V19.1161H27.2383L26.3959 24.6419H21.9688V38C31.052 36.5659 38 28.6575 38 19.1161Z"
+                                        fill="#24A3FF" />
+                                </g>
+                            </svg>
+                        </a>
+                        <span class="dot dot_color"></span>
+                        <a class="phone_footer" href="tel:0800-211-927">0800 211 927</a>
+                        <span class="dot dot_color"></span>
+                        <a class="email" href="mailto:contact@forstudy.space">contact@forstudy.space</a>
+                    </div>
+                </div>
+                <p class="copyright">© 2021 HLEGAL Law company, LLC</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="../script.js"></script>
+</body>
+
+</html>
