@@ -26,8 +26,11 @@ a {
   display: block;
 }
 
-input, select, textarea, button{
-  font-family:inherit;
+input,
+select,
+textarea,
+button {
+  font-family: inherit;
 }
 
 .header {
@@ -195,7 +198,7 @@ input, select, textarea, button{
   margin-bottom: 30px;
 }
 
-.contact_box{
+.contact_box {
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -214,7 +217,7 @@ input, select, textarea, button{
   color: #24a3ff;
 }
 
-.contact_size{
+.contact_size {
   font-size: 21px;
   line-height: 30px;
 }
@@ -258,7 +261,7 @@ input, select, textarea, button{
   border-radius: 12px;
 }
 
-.input{
+.input {
   border: 1px solid transparent;
   border-radius: 8px;
   font-size: 16px;
@@ -278,7 +281,7 @@ input, select, textarea, button{
   border: 1px solid #ededf7;
 }
 
-label{
+label {
   width: 100%;
 }
 
@@ -348,19 +351,19 @@ label{
 }
 
 .red::placeholder {
-  color: #FF0000;
+  color: #ff0000;
 }
 
 .red {
-  border: 1px solid #FF0000;
+  border: 1px solid #ff0000;
 }
 
 .red_text {
-  color: #FF0000;
+  color: #ff0000;
 }
 
 .loader {
-  border: 4px solid #24A3FF;
+  border: 4px solid #24a3ff;
   border-top: 4px solid #f3f3f3;
   border-radius: 50%;
   width: 20px;
@@ -444,16 +447,16 @@ label{
   color: #b3b3ba;
 }
 
-  /* .input:invalid{
-    border: 1px solid #FF0000;
-    color: #FF0000;
-  }
+/* .input:invalid {
+  border: 1px solid #ff0000;
+  color: #ff0000;
+}
 
-  .input:valid{
-    border: 1px solid #24A3FF;
-    color: #000000;
-  }
+.input:valid {
+  border: 1px solid #24a3ff;
+  color: #000000;
+}
 
-  .input:invalid::placeholder{
-    color: #FF0000;
-  } */
+.input:invalid::placeholder {
+  color: #ff0000;
+} */
