@@ -443,3 +443,20 @@ label{
   line-height: 20px;
   color: #b3b3ba;
 }
+
+  .input:invalid{
+    border: 1px solid red;
+    color: red;
+  }
+
+  .input:valid{
+    border: 1px solid #24A3FF;
+    color: #000000;
+  }
+
+  .input::placeholder{
+    color: red;
+  }
+   input::placeholder{
+    color: #000000;
+  }
