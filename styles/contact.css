@@ -444,9 +444,9 @@ label{
   color: #b3b3ba;
 }
 
-  .input:invalid{
-    border: 1px solid red;
-    color: red;
+  /* .input:invalid{
+    border: 1px solid #FF0000;
+    color: #FF0000;
   }
 
   .input:valid{
@@ -454,9 +454,6 @@ label{
     color: #000000;
   }
 
-  .input::placeholder{
-    color: red;
-  }
-   input::placeholder{
-    color: #000000;
-  }
+  .input:invalid::placeholder{
+    color: #FF0000;
+  } */
