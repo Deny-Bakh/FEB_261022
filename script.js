@@ -59,8 +59,8 @@ function validationMessages(){
 function validationPhone(){
     const phoneValue = phoneCheck.value;
     if(phoneValue.length>0){
-        const phoneValidation = /\D/;
-        const result = !phoneValidation.test(phoneValue);
+        const phoneValidation = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/;
+        const result = phoneValidation.test(phoneValue);
         if (result === false){
             phoneCheck.classList.add('red_text');
             phoneCheck.classList.add('red');

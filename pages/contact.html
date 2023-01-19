@@ -108,7 +108,7 @@
                             <label>
                                 <input oninput="validationPhone()" class="phone_answer_contact input width_padding" type="tel"
                                     id="phone_answer_contact" name="phone_answer_contact" placeholder="Phone number" autocomplete="off"
-                                    required pattern="\d{7,11}" title="Only digits. 7 digits minimum">
+                                    required pattern="^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$" title="Only digits. 10 digits minimum">
                             </label>
                             <label>
                                 <input oninput="validationEmail()" class="email_answer_contact input width_padding"
