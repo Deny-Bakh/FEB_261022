@@ -1,0 +1,71 @@
+@import url(../content/null_for_all.css);
+@import url(../content/footer.css);
+@import url(../content/header.css);
+@import url(../content/publication_cards.css);
+
+.header {
+  padding-bottom: 60px;
+}
+
+.main {
+  padding-top: 30px;
+  background: #f5f5fa;
+}
+
+.wrapper_main {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-bottom: 60px;
+  border-bottom: 2px solid #E6E6F0;
+}
+
+.switch_buttons {
+  display: flex;
+  gap: 2px;
+  background-color: #e6e6f0;
+  border-radius: 12px;
+  margin: 0 auto;
+  padding: 2px;
+}
+
+.news_button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #323264;
+  padding: 8px 30px 10px;
+}
+
+.active_switch_button {
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.articles_button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 8px 30px 10px;
+}
+
+.articles_button:hover {
+  background: #f5f5fa;
+  border-radius: 10px;
+}
+
+.publication_button_holder {
+  text-align: center;
+}
+
+.publication_button {
+  display: inline-block;
+  padding: 18px 30px;
+  background: #24a3ff;
+  box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}

@@ -1,12 +1,372 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./assets/slick/slick.css">
+    <link rel="stylesheet" href="./assets/slick/slick-theme.css">
+    <link rel="stylesheet" href="./fonts/font.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./media/media_main_page.css">
 </head>
+
 <body>
-    
+    <div class="bg_color">
+        <header class="header">
+            <div class="container sm_container_header">
+                <div class="wrapper_header">
+                    <a href="#" class="logo" id="a">
+                        <picture class="line_height_pic">
+                            <source srcset="./images/Logo_white.svg" media="(min-width:577px)">
+                            <source srcset="./images/Logo_white_small.svg" media="(max-width:576px)">
+                            <img src="./images/Logo_white.svg" alt="Logo">
+                        </picture>
+                    </a>
+                    <div class="top_menu" id="b">
+                        <div class="language_nav">
+                            <a class="language" href="#">УК</a>
+                            <a class="language" href="#">РУ</a>
+                            <a id="active_language" class="active_language">EN</a>
+                        </div>
+                        <span class="dot"></span>
+                        <a class="street" href="https://goo.gl/maps/TYSp5v7BjKmbazHn8" target="_blank">Kyiv,
+                            Mechnikova str,
+                            14/1</a>
+                        <span class="dot"></span>
+                        <a class="phone" href="tel:0800-211-927">0800 211 927</a>
+                        <span class="dot"></span>
+                        <a class="facebook" href="https://www.facebook.com/" target="_blank"><svg width="24" height="25"
+                                viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M24 12.5733C24 5.90541 18.6274 0.5 12 0.5C5.37258 0.5 0 5.90541 0 12.5733C0 18.5995 4.38823 23.5943 10.125 24.5V16.0633H7.07813V12.5733H10.125V9.91343C10.125 6.88755 11.9165 5.21615 14.6576 5.21615C15.9705 5.21615 17.3438 5.45195 17.3438 5.45195V8.42313H15.8306C14.3399 8.42313 13.875 9.35379 13.875 10.3086V12.5733H17.2031L16.6711 16.0633H13.875V24.5C19.6118 23.5943 24 18.5995 24 12.5733Z"
+                                    fill="#FFFFFF" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="navigation">
+                        <input class="toggle_menu" type="checkbox" name="toggle_menu" id="toggle_menu">
+                        <div class="hamburger"></div>
+                        <nav class="bot_menu_nav" id="c">
+                            <ul class="bot_menu">
+                                <li><a class="nav_link" href="./pages/about_us.html">about us</a>
+                                </li>
+                                <li><a class="nav_link" href="./pages/services.html">services</a>
+                                </li>
+                                <li><a class="nav_link" href="./pages/team.html">team</a>
+                                </li>
+                                <li><a class="nav_link" href="./pages/publication.html">publications</a>
+                                </li>
+                                <li><a class="nav_link" href="./pages/contact.html">contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="grand_logo">
+            <div class="grand_logo_title_holder">
+                <h1 class="grand_logo_title">you legal solutions provider</h1>
+            </div>
+            <a class="main_scroll" href="#tabs" onclick="scrollToElem(this)">
+                <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_22728_11339)">
+                        <circle opacity="0.5" cx="21" cy="21" r="20" stroke="white" stroke-width="2" />
+                        <path d="M12 18L21 27L30 18" stroke="white" stroke-width="2" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_22728_11339">
+                            <rect width="42" height="42" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg>
+            </a>
+        </div>
+        <div class="container_main container mid_container sm_container_main">
+            <div id="tabs" class="nav-content-pg">
+                <div class="nav-content-flex">
+                    <div class=" wrap">
+                        <ul class="nav-tabs" id="nav-tabs">
+                            <li><a data-target="home" class="active-bg">Consistent</a></li>
+                            <li><a data-target="profile">Customer oriented</a></li>
+                            <li><a data-target="messages">Innovative</a></li>
+                            <li><a data-target="settings">Business oriented</a></li>
+                        </ul>
+                    </div>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="home">
+                            <h1 class="tab-pane-title">We turn the idea of legal services</h1>
+                            <p class="tab-pane-text">Consolidating many years of experience and practice, the company's
+                                lawyers
+                                accompany complex projects and achieve a number of important decisions for the industry.
+                                Many of
+                                them form the practice of applying the law of the sea in Ukraine.</p>
+                        </div>
+                        <div class="tab-pane" id="profile">
+                            <h1 class="tab-pane-title">We are customer oriented</h1>
+                            <p class="tab-pane-text">Consolidating many years of experience and practice, the company's
+                                lawyers
+                                accompany complex projects and achieve a number of important decisions for the industry.
+                                Many of
+                                them form the practice of applying the law of the sea in Ukraine.</p>
+                        </div>
+                        <div class="tab-pane" id="messages">
+                            <h1 class="tab-pane-title">We are super innovative</h1>
+                            <p class="tab-pane-text">Consolidating many years of experience and practice, the company's
+                                lawyers
+                                accompany complex projects and achieve a number of important decisions for the industry.
+                                Many of
+                                them form the practice of applying the law of the sea in Ukraine.</p>
+                        </div>
+                        <div class="tab-pane" id="settings">
+                            <h1 class="tab-pane-title">Bussines loves us</h1>
+                            <p class="tab-pane-text">Consolidating many years of experience and practice, the company's
+                                lawyers
+                                accompany complex projects and achieve a number of important decisions for the industry.
+                                Many of
+                                them form the practice of applying the law of the sea in Ukraine.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="services_block">
+                <a class="services_subtitle" href="#">Services <svg width="12" height="13" viewBox="0 0 12 13" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3.5 2L8 6.5L3.5 11" stroke="#24A3FF" stroke-width="2" />
+                    </svg>
+                </a>
+                <h2 class="services_title">What can we do better than others?</h2>
+                <div class="services_block_card">
+                    <a class="services_card" href="./sub_services/sub_services_commerce.html">
+                        <img class="services_image" src="./images/Ecommerce.svg" alt="shopping bag">
+                        <h3 class="services_card_title">IT and e-commerce</h3>
+                        <p class="services_card_text">An endless stream of contracts, tax issues, labor relations,
+                            corporate papers - legal work distracts you from doing business. But there is not much
+                            work
+                            to do to hire an in-house lawyer.</p>
+                    </a>
+                    <a class="services_card" href="./sub_services/sub_services_support.html">
+                        <img class="services_image" src="./images/Support.svg" alt="suitcase">
+                        <h3 class="services_card_title">Comprehensive daily legal support</h3>
+                        <p class="services_card_text">In addition, over time, the work will become the same type and
+                            uninteresting for a full-time lawyer. And we know very well how difficult it is to find
+                            a
+                            good candidate with experience in the field of information technology in Ukraine.</p>
+                    </a>
+                    <a class="services_card" href="./sub_services/sub_services_corporate.html">
+                        <img class="services_image" src="./images/Coprorate.svg" alt="diagram">
+                        <h3 class="services_card_title">Structuring corporate relationships</h3>
+                        <p class="services_card_text">Instead of just providing legal services, we will hire a
+                            lawyer or
+                            a whole team that will fit into the daily life of your company.</p>
+                    </a>
+                    <a class="services_card" href="./sub_services/sub_services_trust.html">
+                        <img class="services_image" src="./images/Trust.svg" alt="hands">
+                        <h3 class="services_card_title">Building contractual relations</h3>
+                        <p class="services_card_text">Once a week, or week after month, you have your own lawyer by
+                            your
+                            side. Anyone in the company can catch it at the coffee maker and just talk about current
+                            affairs instead of waiting for update status.</p>
+                    </a>
+                    <a class="services_card" href="./sub_services/sub_services_protection.html">
+                        <img class="services_image" src="./images/Protection.svg" alt="shield check">
+                        <h3 class="services_card_title">Protection of business, intellectual property</h3>
+                        <p class="services_card_text">And all the other time he will work on new diverse projects,
+                            so he
+                            will definitely not stop in professional development. One way or another, all Axon
+                            Partners
+                            will work for you instead of a corporate lawyer.</p>
+                    </a>
+                    <a class="services_card" href="./sub_services/sub_services_court.html">
+                        <img class="services_image" src="./images/Court.svg" alt="gavel">
+                        <h3 class="services_card_title">Judicial representation</h3>
+                        <p class="services_card_text">Is it a small, medium-sized company or a market leader? Local
+                            business or multinational company? Do you have your own legal department or not?</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="container_dark_grey_padding">
+        <div class="container_dark_grey"></div>
+    </div>
+    <div class="container_light_grey_padding">
+        <div class="container_ligth_grey"></div>
+    </div> -->
+    <main class="main">
+        <div class="wrapper_main">
+            <div class="container sm_container_main">
+                <div id="firstSlider" class="slider_cards_holder">
+                    <a class="slider_card" href="./sub_team/sub_team_alexandrovsky.html">
+                        <img class="team_picture" src="./images/Team-1.jpg" alt="team member">
+                        <div class="slider_text">
+                            <p class="team_title">команда <svg width="12" height="13" viewBox="0 0 12 13" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.5 2L8 6.5L3.5 11" stroke="#24A3FF" stroke-width="2" />
+                                </svg>
+                            </p>
+                            <h2 class="team_text">Ми звикли брати на себе відповідальність та завжди гарантуємо
+                                чесну,
+                                вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.</h2>
+                            <p class="team_name">Alexander Alexandrovsky</p>
+                            <p class="team_job">Managing partner</p>
+                        </div>
+                    </a>
+                    <a class="slider_card" href="./sub_team/sub_team_patrikov.html">
+                        <img class="team_picture" src="./images/Team-2.jpg" alt="team member">
+                        <div class="slider_text">
+                            <p class="team_title">команда <svg width="12" height="13" viewBox="0 0 12 13" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.5 2L8 6.5L3.5 11" stroke="#24A3FF" stroke-width="2" />
+                                </svg>
+                            </p>
+                            <h2 class="team_text">Ми звикли брати на себе відповідальність та завжди гарантуємо
+                                чесну,
+                                вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.</h2>
+                            <p class="team_name">Yevgeniy Patrikov</p>
+                            <p class="team_job">Equity partner, Attorney-at-law</p>
+                        </div>
+                    </a>
+                    <a class="slider_card" href="./sub_team/sub_team_melnik.html">
+                        <img class="team_picture" src="./images/Team-3.jpg" alt="team member">
+                        <div class="slider_text">
+                            <p class="team_title">команда <svg width="12" height="13" viewBox="0 0 12 13" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.5 2L8 6.5L3.5 11" stroke="#24A3FF" stroke-width="2" />
+                                </svg>
+                            </p>
+                            <h2 class="team_text">Ми звикли брати на себе відповідальність та завжди гарантуємо
+                                чесну,
+                                вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.</h2>
+                            <p class="team_name">Vladislav Melnik</p>
+                            <p class="team_job">Associate</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="partner_container">
+                <h3 class="partner_title">They already trust us</h3>
+                <div class="partner_cards">
+                    <a class="partner_card_body color_blue" href="#">
+                        <img class="partner_image" src="./images/Comercial_logo_1.svg" alt="hillel">
+                    </a>
+                    <a class="partner_card_body color_grey" href="#">
+                        <img class="partner_image" src="./images/Comercial_logo_2.svg" alt="wannabiz">
+                    </a>
+                    <a class="partner_card_body color_orange" href="#">
+                        <img class="partner_image" src="./images/Comercial_logo_3.svg" alt="tapgerine">
+                    </a>
+                    <a class="partner_card_body color_purple" href="#">
+                        <img class="partner_image" src="./images/Comercial_logo_4.svg" alt="3dlook">
+                    </a>
+                    <a class="partner_card_body color_dark_orange" href="#">
+                        <img class="partner_image" src="./images/Comercial_logo_5.svg" alt="orangear">
+                    </a>
+                    <a class="partner_card_body color_dark_white" href="#">
+                        <img class="partner_image" src="./images/Comercial_logo_6.svg" alt="adtelligent">
+                    </a>
+                    <a class="partner_card_body color_red" href="#">
+                        <img class="partner_image" src="./images/Comercial_logo_7.svg" alt="clickky">
+                    </a>
+                    <a class="partner_card_body color_light_grey" href="#">
+                        <img class="partner_image" src="./images/Comercial_logo_8.svg" alt="eco leasing">
+                    </a>
+                    <a class="partner_card_body color_medium_grey" href="#">
+                        <img class="partner_image" src="./images/Comercial_logo_9.svg" alt="infratek">
+                    </a>
+                    <a class="partner_card_body color_dark_purple" href="#">
+                        <img class="partner_image" src="./images/Comercial_logo_10.svg" alt="city park">
+                    </a>
+                    <a class="partner_card_body color_dark_blue" href="#">
+                        <img class="partner_image" src="./images/Comercial_logo_11.svg" alt="art-print studio">
+                    </a>
+                    <a class="partner_card_body color_black" href="#">
+                        <img class="partner_image" src="./images/Comercial_logo_12.svg" alt="ultimate card">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container sm_container_main">
+            <div class="publications_section">
+                <a class="publications_subtitle" href="#">Publications <svg width="12" height="13" viewBox="0 0 12 13"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3.5 2L8 6.5L3.5 11" stroke="#24A3FF" stroke-width="2" />
+                    </svg>
+                </a>
+                <h2 class="publications_title">We have something to tell</h2>
+                <div class="publication_card_wrapper">
+                    <a id="d" class="publication_card" href="./sub_publications/sub_publication_equity.html">
+                        <img class="publication_image" src="./images/Publication-1.jpg" alt="working space">
+                        <div class="publication_block">
+                            <h4 class="publication_title">Equity associate</h4>
+                            <p class="publication_date">April 22</p>
+                            <span class="publication_grey_line"></span>
+                            <p class="publication_text">I'm a jun on projects. I am a co-owner of a law firm. How
+                                it happened. Before entering my parents told me that if I…</p>
+                        </div>
+                    </a>
+                    <a id="e" class="publication_card" href="./sub_publications/sub_publication_gdpr.html">
+                        <img class="publication_image" src="./images/Publication-2.jpg" alt="flag">
+                        <div class="publication_block">
+                            <h4 class="publication_title">Penalty for the Good Corporation: what will happen to
+                                Google and others for violating the GDPR</h4>
+                            <p class="publication_date">September 29</p>
+                            <span class="publication_grey_line"></span>
+                            <p class="publication_text">And why the recovery of 50 million euros could be a
+                                fateful precedent According to Mind.ua January 21 National Commission for Data
+                                Protection.</p>
+                        </div>
+                    </a>
+                    <a id="f" class="publication_card" href="./sub_publications/sub_publication_millenial.html">
+                        <img class="publication_image" src="./images/Publication-3.jpg" alt="people">
+                        <div class="publication_block">
+                            <h4 class="publication_title">Millennial Testament</h4>
+                            <p class="publication_date">August 19</p>
+                            <span class="publication_grey_line"></span>
+                            <p class="publication_text">What and how modern vloggers, opinion leaders and
+                                crypto-millionaires will inherit A typical legacy of the Ukrainian generation X looks
+                                like this: an apartment in…</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="wrapper_footer">
+                <div class="information_holder">
+                    <div class="company_information">
+                        <p class="adress">Kyiv, Mechnikova str, 14/1</p>
+                        <span class="dot dot_color"></span>
+                        <a class="map" href="https://goo.gl/maps/TYSp5v7BjKmbazHn8" target="_blank">On map</a>
+                    </div>
+                    <div class="social_phone">
+                        <a class="facebook_footer" href="https://www.facebook.com/" target="_blank"><svg width="38"
+                                height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_80918_1083)">
+                                    <path
+                                        d="M38 19.1161C38 8.55857 29.4934 0 19 0C8.50658 0 0 8.55857 0 19.1161C0 28.6575 6.94803 36.5659 16.0312 38V24.6419H11.207V19.1161H16.0312V14.9046C16.0312 10.1136 18.8678 7.46723 23.2078 7.46723C25.2866 7.46723 27.4609 7.84059 27.4609 7.84059V12.545H25.0651C22.7048 12.545 21.9688 14.0185 21.9688 15.5302V19.1161H27.2383L26.3959 24.6419H21.9688V38C31.052 36.5659 38 28.6575 38 19.1161Z"
+                                        fill="#24A3FF" />
+                                </g>
+                            </svg>
+                        </a>
+                        <span class="dot dot_color"></span>
+                        <a class="phone_footer" href="tel:0800-211-927">0800 211 927</a>
+                        <span class="dot dot_color"></span>
+                        <a class="email" href="mailto:contact@forstudy.space">contact@forstudy.space</a>
+                    </div>
+                </div>
+                <p class="copyright">© 2021 HLEGAL Law company, LLC</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="./assets/slick/slick.min.js"></script>
+    <script src="./script.js"></script>
 </body>
+
 </html>

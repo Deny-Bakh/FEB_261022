@@ -1,0 +1,235 @@
+@media (max-width: 1600px) {
+    .container {
+      max-width: calc(1320px + 2rem);
+    }
+  
+    .container_main {
+      max-width: calc(1080px + 2rem);
+    }
+  }
+
+
+  @media (max-width: 1200px) {
+    .container {
+      max-width: calc(904px + 2rem);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      max-width: calc(648px + 2rem);
+    }
+  
+    .wrapper_header {
+      gap: 30px;
+      grid-template-areas:
+        "b"
+        "a"
+        "c";
+    }
+  
+    .bot_menu {
+      justify-content: flex-start;
+    }
+  
+    .wrapper_footer {
+      flex-direction: column;
+      margin: 0 auto;
+      max-width: max-content;
+      text-align: center;
+    }
+  
+    .information_holder{
+      margin-bottom: 30px;
+    }
+  }
+
+  @media (max-width: 576px) {
+  
+    body.lock{
+        overflow: hidden;
+      }
+    
+      .sm_container_header{
+        max-width: 100%;
+      }
+    
+      .sm_container_main {
+        max-width: 100%;
+        padding: 0 30px;
+      }
+    
+      .header {
+        padding: 0 0 10px;
+      }
+    
+      .wrapper_header {
+        grid-template-areas:
+          "b b"
+          "a c";
+          gap: 15px;
+      }
+    
+      .logo{
+        position: relative;
+        z-index: 5;
+      }
+    
+      .logo_pic {
+        display: none;
+      }
+    
+      .page_name {
+        font-size: 20px;
+        line-height: 24px;
+        color: #323264;
+      }
+    
+      .top_menu {
+        position: relative;
+        margin-left: -1rem;
+        margin-right: -1rem;
+        justify-content: space-between;
+        padding: 10px 15px;
+        background-color: #f5f5fa;
+        z-index: 5;
+      }
+    
+      .dot {
+        display: none;
+      }
+    
+      .street {
+        display: none;
+      }
+    
+      .facebook {
+        display: none;
+      }
+    
+      .active_page {
+        color: #f0145a;
+        border: none;
+      }
+    
+      .nav_link:hover{
+        border-bottom: none;
+      }
+    
+      .bot_menu_nav{
+        position: fixed;
+        top: 100%;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: transparent;
+        padding: 95px 8px 0;
+        transition: all 0.5s ease-in-out;
+      }
+    
+    
+      .bot_menu {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        background-color: #ffffff;
+        border-radius: 12px 12px 0px 0px  ;
+        padding: 20px 12px 0;
+      }
+    
+      .bot_menu_nav .bot_menu li a {
+        display: block;
+        text-align: center;
+        padding: 7px 0;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        background-color: #f5f5fa;
+        border-radius: 12px;
+      }
+    
+      .bot_menu_nav ul li .nav_link:active {
+        background: #e6e6f0;
+      }
+    
+      .hamburger {
+        position: relative;
+        width: 18px;
+        height: 2px;
+        right: 0;
+        background-color: #323264;
+        z-index: 2;
+        transition: all 0.5s ease-in-out;
+      }
+    
+      .hamburger::before,
+      .hamburger::after {
+        content: "";
+        position: absolute;
+        height: 2px;
+        right: 0;
+        background-color: #323264;
+        transition: all 0.5s ease-in-out;
+      }
+    
+      .hamburger::before {
+          top: -6px;
+          width: 18px;
+      }
+    
+      .hamburger::after {
+        top: 6px;
+        width: 18px;
+      }
+    
+      .toggle_menu {
+        position: absolute;
+        width: 18px;
+        z-index: 3;
+        cursor: pointer;
+        opacity: 0;
+        background-color: transparent;
+      }
+    
+      .hamburger,
+      .toggle_menu {
+        display: inline-block;
+      }
+    
+      .navigation {
+        display: flex;
+        align-items: center;
+        justify-self: end;
+        padding: 10px 7px;
+        width: max-content;
+      }
+    
+      .navigation input:checked ~ .hamburger {
+        background: transparent;
+      }
+    
+      .navigation input:checked ~ .hamburger::before {
+        top: 0;
+        transform: rotate(-45deg);
+        background-color: #ec6f5d;
+      }
+    
+      .navigation input:checked ~ .hamburger::after {
+        top: 0;
+        transform: rotate(45deg);
+        background-color: #ec6f5d;
+      }
+    
+      .navigation input:checked ~ .bot_menu_nav {
+        top: 0;
+      }
+    
+      .company_information {
+        flex-direction: column;
+      }
+    
+      .social_phone {
+        flex-direction: column;
+      }
+    }

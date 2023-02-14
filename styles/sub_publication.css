@@ -1,0 +1,114 @@
+@import url(../content/null_for_all.css);
+@import url(../content/header.css);
+@import url(../content/publication_cards.css);
+@import url(../content/footer.css);
+
+.button-back{
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  top: 17%;
+  right: 5%;
+  border-radius: 50%;
+  background-color: rgb(179, 179, 186);
+}
+
+.button-back:hover svg{
+  border-radius: 50%;
+  background-color: #f0145a;
+}
+
+.publication_pic {
+  height: 500px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.publication_article_title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  color: #323264;
+  margin-bottom: 15px;
+}
+
+.publication_text_block {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.publication_text_paragraph {
+  line-height: 26px;
+  color: #000000;
+}
+
+.publication_subtitle {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #323264;
+  margin-bottom: 15px;
+}
+
+.publication_main_message {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.publication_list li {
+  display: flex;
+  gap: 10px;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.publication_list li::before {
+  font-weight: 700;
+  content: counter(li) ".";
+  color: #f0145a;
+  display: inline-block;
+  width: 100%;
+  max-width: 30px;
+  text-align: right;
+}
+
+.publication_list li {
+  counter-increment: li;
+}
+
+.publication_commercial_image {
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.publication_commercial_text {
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #b3b3ba;
+  text-align: center;
+}
+
+.publication_social_media {
+  display: flex;
+  gap: 10px;
+}
+
+.social_media_emblem {
+  padding: 9px;
+  background-color: #f5f5fa;
+  border-radius: 12px;
+}
+
+.social_media_emblem:hover {
+  background-color: #ededf7;
+}

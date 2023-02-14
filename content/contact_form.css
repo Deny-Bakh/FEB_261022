@@ -1,0 +1,141 @@
+.form_contact {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    max-width: 650px;
+    padding: 30px;
+    background: #f5f5fa;
+    border-radius: 12px;
+  }
+  
+  .main_text_form {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+  
+  .input {
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  
+  .input:focus {
+    border: 1px solid #24a3ff;
+  }
+  
+  .input::placeholder {
+    color: #b3b3ba;
+  }
+  
+  .input:disabled {
+    background: #ededf7;
+    border: 1px solid #ededf7;
+  }
+  
+  label {
+    width: 100%;
+  }
+  
+  .name_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .width_padding {
+    width: 100%;
+    padding: 15px;
+  }
+  
+  .message_contact {
+    width: 100%;
+    padding: 15px 15px 89px;
+    resize: none;
+  }
+  
+  .message_contact::placeholder {
+    color: #b3b3ba;
+  }
+  
+  .message_contact:focus {
+    border: 1px solid #24a3ff;
+  }
+  
+  .answer_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .answer_contact {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #b3b3ba;
+  }
+  
+  .btn_contact {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #24a3ff;
+    box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+    border-radius: 12px;
+    border: none;
+    padding: 18px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .btn_contact:hover {
+    background-color: #0085ff;
+  }
+  
+  .btn_contact:active {
+    background-color: #006ccf;
+  }
+  
+  .red::placeholder {
+    color: #ff0000;
+  }
+  
+  .red {
+    border: 1px solid #ff0000;
+  }
+  
+  .red_text {
+    color: #ff0000;
+  }
+  
+  .loader {
+    border: 4px solid #24a3ff;
+    border-top: 4px solid #f3f3f3;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

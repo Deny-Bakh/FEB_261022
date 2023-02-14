@@ -1,0 +1,66 @@
+.footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #f5f5fa;
+  }
+  
+  .wrapper_footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .company_information {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 21px;
+  }
+  
+  .adress {
+    line-height: 20px;
+    color: #323264;
+  }
+  
+  .map {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #24a3ff;
+  }
+  
+  .social_phone {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .facebook_footer:hover svg path {
+    fill: #f0145a;
+  }
+  
+  .phone_footer {
+    font-weight: 700;
+    line-height: 20px;
+    color: #46466e;
+  }
+  
+  .email {
+    font-weight: 700;
+    line-height: 20px;
+    color: #24a3ff;
+  }
+  
+  .email:hover {
+    color: #f0145a;
+  }
+  
+  .dot_color {
+    background: #b3b3ba;
+  }
+  
+  .copyright {
+    line-height: 20px;
+    color: #b3b3ba;
+  }

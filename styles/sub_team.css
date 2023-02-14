@@ -1,0 +1,99 @@
+@import url(../content/null_for_all.css);
+@import url(../content/header.css);
+@import url(../content/footer.css);
+
+.button-back{
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  top: 17%;
+  right: 5%;
+  border-radius: 50%;
+  background-color: rgb(179, 179, 186);
+}
+
+.button-back:hover svg{
+  border-radius: 50%;
+  background-color: #f0145a;
+}
+
+.main_wrapper{
+  display: grid;
+  grid-column-gap: 60px;
+  grid-template-areas:
+  "d e"
+  "d f";
+}
+
+#d {
+  grid-area: d;
+}
+#e {
+  grid-area: e;
+}
+#f {
+  grid-area: f;
+}
+
+.team_pic{
+  height: 500px;
+  max-width: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.team_card {
+  margin-bottom: 30px;
+}
+
+.team_name_title {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-bottom: 15px;
+}
+
+.team_information_block {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.team_job {
+  font-size: 14px;
+  line-height: 22px;
+  color: #b3b3ba;
+}
+
+.biography_block{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border-top: 4px solid #e6e6f0;
+  padding-top: 30px;
+}
+
+.biography_text {
+  line-height: 26px;
+  color: #000000;
+}
+
+.biography_sub_block{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.biography_subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #323264;
+}

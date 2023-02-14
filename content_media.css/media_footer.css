@@ -1,0 +1,31 @@
+@media (max-width: 768px) {
+  
+    .wrapper_footer {
+      flex-direction: column;
+      margin: 0 auto;
+      max-width: max-content;
+      text-align: center;
+    }
+  
+    .information_holder{
+      margin-bottom: 30px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .main{
+        padding: 30px 0;
+      }
+  
+      .wrapper_main{
+          gap: 30px;
+      }
+    
+      .company_information {
+        flex-direction: column;
+      }
+    
+      .social_phone {
+        flex-direction: column;
+      }
+  }

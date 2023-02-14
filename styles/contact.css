@@ -1,0 +1,63 @@
+@import url(../content/null_for_all.css);
+@import url(../content/header.css);
+@import url(../content/form_contact.css);
+@import url(../content/footer.css);
+
+.wrapper_main {
+  display: flex;
+  gap: 60px;
+}
+
+.contact_card {
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+  flex-direction: column;
+}
+
+.adress_contact {
+  color: #323264;
+  margin-bottom: 30px;
+}
+
+.contact_box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 30px 0;
+  margin-bottom: 30px;
+  border-top: 4px solid #e6e6f0;
+  border-bottom: 4px solid #e6e6f0;
+}
+
+.phone_contact {
+  color: #46466e;
+}
+
+.email_contact {
+  word-break: break-all;
+  color: #24a3ff;
+}
+
+.contact_size {
+  font-size: 21px;
+  line-height: 30px;
+}
+
+.facebook_contact {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #24a3ff;
+}
+
+.facebook_contact:hover path,
+.facebook_contact:hover {
+  fill: #f0145a;
+  color: #f0145a;
+}

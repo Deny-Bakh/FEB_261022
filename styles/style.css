@@ -1,0 +1,200 @@
+@import url(../content/null_for_all.css);
+@import url(../content/header.css);
+@import url(../content/services_card.css);
+@import url(../content/partner_cards.css);
+@import url(../content/publication_cards.css);
+@import url(../content/footer.css);
+
+.header {
+  position: absolute;
+}
+
+.grand_logo {
+  background: url(../images/Symbol.svg) center/auto 100vh no-repeat;
+  position: relative;
+  min-height: 100vh;
+}
+
+.grand_logo .grand_logo_title_holder {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grand_logo_title {
+  color: #ffffff;
+  font-size: 38px;
+  line-height: 46px;
+  text-align: center;
+}
+
+.main_scroll {
+  position: absolute;
+  left: 50%;
+  bottom: 30px;
+  transform: translateX(-50%);
+}
+
+.main {
+  padding-top: 80px;
+}
+
+.slider_card {
+  display: flex;
+  align-items: center;
+  background-color: #f5f5fa;
+  border-radius: 12px;
+}
+
+.slick-initialized .slick-slide {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.team_picture {
+  width: 100%;
+  max-width: 400px;
+  object-fit: cover;
+  height: 298px;
+  border-radius: 12px 0 0 12px;
+}
+
+.slider_text {
+  padding: 30px;
+}
+
+.team_title {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #24a3ff;
+  margin-bottom: 5px;
+}
+
+.slider_card:hover .team_title,
+.slider_card:hover .team_title path {
+  color: #f0145a;
+  stroke: #f0145a;
+}
+
+.team_text {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-bottom: 30px;
+}
+
+.team_name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #b3b3ba;
+  margin-bottom: 6px;
+}
+
+.team_job {
+  font-size: 14px;
+  line-height: 22px;
+  color: #b3b3ba;
+}
+
+.slick-dots {
+  position: static;
+}
+
+.slick-dotted.slick-slider {
+  margin-bottom: 60px;
+}
+
+.slick-dots li button:before {
+  font-size: 16px;
+  line-height: 20px;
+  width: 16px;
+  height: 16px;
+  color: #24a3ff;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: #24a3ff;
+}
+
+.partner_section {
+  padding-top: 60px;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.nav-content-pg {
+  padding-top: 60px;
+}
+
+.nav-content-flex {
+  display: flex;
+  align-items: center;
+}
+
+.nav-tabs {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border-right: 4px solid #ddd;
+  padding-right: 60px;
+  margin-right: 60px;
+  height: 303px;
+  justify-content: center;
+}
+
+.nav-tabs > li {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  text-align: right;
+  color: #b3b3ba;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.nav-tabs > li:hover {
+  color: #f0145a;
+}
+
+.active-bg {
+  background: linear-gradient(90.13deg, #ef8080 0.84%, #f0145a 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.tab-pane {
+  display: none;
+}
+
+.tab-content > .active {
+  display: block;
+}
+
+.tab-pane-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.tab-pane-text {
+  font-size: 19px;
+  line-height: 30px;
+  color: #ffffff;
+}

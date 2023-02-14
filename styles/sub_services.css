@@ -1,0 +1,142 @@
+@import url(../content/null_for_all.css);
+@import url(../content/header.css);
+@import url(../content/publication_cards.css);
+@import url(../content/footer.css);
+@import url(../content/form_contact.css);
+
+.services_block_pg{
+  padding: 60px 0;
+}
+
+.services_card_block {
+  padding-bottom: 60px;
+  margin-bottom: 30px;
+  border-bottom: 4px solid rgba(255, 255, 255, 0.5);
+}
+
+.ecommerce_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  text-align: center;
+}
+
+.ecommerce_image {
+  padding: 14px;
+  background: #ffffff;
+  border-radius: 24px;
+}
+
+.ecommerce_title {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.ecommerce_text {
+  font-size: 19px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.ecommerce_button {
+  padding: 18px 30px;
+  background: #24a3ff;
+  box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.services_area_title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.services_area_list {
+  columns: 2;
+  column-gap: 60px;
+}
+
+.services_area_text {
+  display: flex;
+  column-gap: 8px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.services_area_text:last-child{
+  margin-bottom: 0;
+}
+
+.services_area_text::before{
+  font-weight: 700;
+  content: "\2022";
+  color: #f0145a;
+  display: inline-block;
+  font-size: 24px;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.main {
+  padding-bottom: 0;
+}
+
+.button-back{
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  top: 17%;
+  right: 5%;
+  border-radius: 50%;
+  background-color: rgb(179, 179, 186);
+}
+
+.button-back:hover svg{
+  border-radius: 50%;
+  background-color: #f0145a;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.popup_wrapper {
+  position: fixed;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background-color: #323264;
+  z-index: 5;
+}
+
+.popup_wrapper.active_click {
+  display: flex;
+}
+
+.close {
+  display: block;
+  position: absolute;
+  right: 37px;
+  top: 10px;
+  font-size: 2rem;
+  color: #ec6f5d;
+  cursor: pointer;
+}
+
