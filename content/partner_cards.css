@@ -1,9 +1,6 @@
 .partner_container {
     width: 100%;
     max-width: 1720px;
-    /* max-width: calc(1720px + 2rem);
-    padding-left: 1rem;
-    padding-right: 1rem; */
     margin: 0 auto;
   }
   

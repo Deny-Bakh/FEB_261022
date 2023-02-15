@@ -40,6 +40,19 @@
   padding-top: 80px;
 }
 
+/* .slider_cards_holder{
+  display: flex;
+  flex-direction: column;
+}
+
+.slider_cards_holder{
+  width: 100%;
+  max-width: calc(1600px + 2rem);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 0 auto;
+} */
+
 .slider_card {
   display: flex;
   align-items: center;
@@ -198,3 +211,73 @@
   line-height: 30px;
   color: #ffffff;
 }
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* .team_img {
+  width: 400px;
+  max-height: 100%;
+  border-radius: 12px 0px 0px 12px;
+}
+
+.team_one_foto {
+  background: url(../image/Team-1.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.team_two_foto {
+  background: url(../image/Team-2.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.team_three_foto {
+  background: url(../image/Team-3.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.title_team {
+  max-width: 1140px;
+  font-size: 38px;
+  line-height: 1.21;
+  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-bottom: 30px;
+}
+.name_team {
+  color: var(--fourth-color);
+}
+
+.job_title {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--fourth-color);
+}
+
+.text_team {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background-color: var(--five-color);
+  border-radius: 0px 12px 12px 0px;
+}
+
+.card_team {
+  display: flex;
+}
+
+.slick-dots li button:before {
+  font-size: 16px;
+  opacity: 0.2;
+  color: var(--second-color);
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: var(--second-color);
+} */

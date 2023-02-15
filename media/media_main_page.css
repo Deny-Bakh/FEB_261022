@@ -1,3 +1,5 @@
+/* @import url(../content_media.css/media_header.css); */
+
 @media (max-width: 1600px) {
   .container {
     max-width: calc(1320px + 2rem);
@@ -29,7 +31,7 @@
     max-width: calc(648px + 2rem);
   }
 
-  .header_bar {
+  .wrapper_header {
     gap: 30px;
     grid-template-areas:
       "b"
@@ -184,7 +186,7 @@
     padding: 0 0 10px;
   }
 
-  .header_bar {
+  .wrapper_header {
     padding-top: 0;
     grid-template-areas:
       "b b"

@@ -6,6 +6,15 @@ $(document).ready(function() {
     })
 })
 
+$('#firstSlider').slick({
+  dots: true,
+  // autoplay: true,
+  // autoplaySpeed: 4000,
+  arrows:false,
+  pauseOnHover:true,
+  pauseOnDotsHover:true,
+});
+
 const mainPage = 'index.html';
 if (window.location.href.includes(mainPage)){
   function scrollToElem(elem) {
@@ -17,12 +26,6 @@ if (window.location.href.includes(mainPage)){
     })
   }
 
-  $('#firstSlider').slick({
-    dots: true,
-    autoplay: true,
-    autoplaySpeed: 4000,
-    arrows:false
-  });
 
   function setupNavtabs(navtab) {
     var tabs = navtab.querySelectorAll("*[data-target]");
