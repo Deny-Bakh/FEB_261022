@@ -15,17 +15,16 @@ if (window.location.href.includes(mainPage)){
       top: target.offsetTop,
       behavior: "smooth"
     })
-  }
+  };
 
   $('#firstSlider').slick({
     dots: true,
     // autoplay: true,
     // autoplaySpeed: 4000,
     arrows:false,
-    pauseOnHover:true,
-    pauseOnDotsHover:true,
+    // pauseOnHover:true,
+    // pauseOnDotsHover:true,
   });
-  
 
   function setupNavtabs(navtab) {
     var tabs = navtab.querySelectorAll("*[data-target]");
@@ -130,7 +129,7 @@ const services = 'sub_services_';
 if (window,location.href.includes(services)){
   const button = document.querySelector('#ecommerceButton')
   const popup = document.querySelector('.popup_wrapper')
-  const close = document.querySelector('span.close')
+  const close = document.querySelector('img.close')
 
 button.addEventListener('click', clickHandler)
 popup.addEventListener('click', closeHandler)

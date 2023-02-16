@@ -130,13 +130,31 @@
   display: flex;
 }
 
-.close {
-  display: block;
-  position: absolute;
-  right: 37px;
-  top: 10px;
-  font-size: 2rem;
-  color: #ec6f5d;
+.form_close{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  /* gap: 48px; */
+}
+
+.main_text_form {
+  font-size: 37px;
+}
+
+.close{
   cursor: pointer;
 }
+
+.close:hover {
+  background-color: #E6E6F0;
+  border-radius: 8px;
+}
+
+/* .close {
+  display: block;
+
+  font-size: 2rem;
+  color: #ec6f5d;
+
+} */
 

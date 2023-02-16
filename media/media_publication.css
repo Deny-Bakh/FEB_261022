@@ -225,10 +225,10 @@
     .navigation input:checked ~ .bot_menu_nav {
       top: 0;
     }
-  
-    .main{
-      padding-top: 30px;
-    }
+
+    .wrapper_main{
+      padding-bottom: 30px;
+    } 
   
     .publication_card_wrapper {
         display: grid;
