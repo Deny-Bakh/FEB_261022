@@ -43,9 +43,7 @@
   }
 
   .publication_card_wrapper {
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
   }
 
   #f {
@@ -173,7 +171,7 @@
     background: #e6e6f0;
   }
 
-  .bg_color .nav_link:hover{
+  .bg_color .nav_link:hover {
     border-bottom: none;
   }
 
@@ -254,51 +252,30 @@
     line-height: 37px;
   }
 
-  .services_card_block{
+  .services_card_block {
     padding-bottom: 30px;
   }
+
+  .services_block_pg{
+    padding: 30px 0 60px 0;
+  } 
 
   .services_area_list {
     columns: 1;
   }
 
-  /* .main {
-    padding: 30px 0;
-  }
-
-  .wrapper_main {
-    gap: 30px;
-  } */
-
-  .partner_cards {
-    /* display: flex;
-      flex-direction: column; */
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    height: 720px;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
-  }
-
-  .partner_cards::-webkit-scrollbar {
-    display: none;
-  }
-
-  .partner_cards {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+  .publications_title {
+    font-size: 30px;
+    line-height: 37px;
   }
 
   .publication_card_wrapper {
-    display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 30px;
   }
 
   #f {
-    display: grid;
-    grid-column-start: 1;
-    grid-column-end: 1;
+    grid-column-start: auto;
+    grid-column-end: auto;
   }
 
   .company_information {
