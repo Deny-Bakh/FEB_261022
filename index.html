@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./slick-1.8.1 2/slick/slick.css">
-    <link rel="stylesheet" href="./slick-1.8.1 2/slick/slick-theme.css">
+    <!-- <link rel="stylesheet" href="./slick-1.8.1 2/slick/slick.css"> -->
+    <link rel="stylesheet" href="./assets/slick/slick.css">
+    <!-- <link rel="stylesheet" href="./slick-1.8.1 2/slick/slick-theme.css"> -->
+    <link rel="stylesheet" href="./assets/slick/slick-theme.css">
     <link rel="stylesheet" href="./fonts/font.css">
     <link rel="stylesheet" href="./styles/style.css">
     <!-- <link rel="stylesheet" href="./styles/backup_style.css"> -->
@@ -19,13 +21,13 @@
         <header class="header">
             <div class="container sm_container_header">
                 <div class="wrapper_header">
-                    <a href="#" class="logo" id="a">
+                    <div class="logo" id="a">
                         <picture class="line_height_pic">
-                            <source srcset="./images/Logo_white.svg" media="(min-width:577px)">
-                            <source srcset="./images/Logo_white_small.svg" media="(max-width:576px)">
+                            <source srcset="./images/Logo_white.svg" media="(min-width:600px)">
+                            <source srcset="./images/Logo_white_small.svg" media="(max-width:599px)">
                             <img src="./images/Logo_white.svg" alt="Logo">
                         </picture>
-                    </a>
+                    </div>
                     <div class="top_menu" id="b">
                         <div class="language_nav">
                             <a class="language" href="#">УК</a>
@@ -294,7 +296,7 @@
     <footer class="footer">
         <div class="container sm_container_main">
             <div class="publications_section">
-                <a class="publications_subtitle" href="#">Publications <svg width="12" height="13" viewBox="0 0 12 13"
+                <a class="publications_subtitle" href="./pages/publication.html">Publications <svg width="12" height="13" viewBox="0 0 12 13"
                         fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M3.5 2L8 6.5L3.5 11" stroke="#24A3FF" stroke-width="2" />
                     </svg>
@@ -337,13 +339,36 @@
                 </div>
             </div>
             <div class="wrapper_footer">
-                <div class="information_holder">
-                    <div class="company_information">
+                    <div class="company_information" id="one">
                         <p class="adress">Kyiv, Mechnikova str, 14/1</p>
                         <span class="dot dot_color"></span>
                         <a class="map" href="https://goo.gl/maps/TYSp5v7BjKmbazHn8" target="_blank">On map</a>
                     </div>
-                    <div class="social_phone">
+                    <div class="social_phone" id="two">
+                        <a class="facebook_footer" href="https://www.facebook.com/" target="_blank"><svg width="38"
+                                height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_80918_1083)">
+                                    <path
+                                        d="M38 19.1161C38 8.55857 29.4934 0 19 0C8.50658 0 0 8.55857 0 19.1161C0 28.6575 6.94803 36.5659 16.0312 38V24.6419H11.207V19.1161H16.0312V14.9046C16.0312 10.1136 18.8678 7.46723 23.2078 7.46723C25.2866 7.46723 27.4609 7.84059 27.4609 7.84059V12.545H25.0651C22.7048 12.545 21.9688 14.0185 21.9688 15.5302V19.1161H27.2383L26.3959 24.6419H21.9688V38C31.052 36.5659 38 28.6575 38 19.1161Z"
+                                        fill="#24A3FF" />
+                                </g>
+                            </svg>
+                        </a>
+                        <span class="dot dot_color"></span>
+                        <a class="phone_footer" href="tel:0800-211-927">0800 211 927</a>
+                        <span class="dot dot_color"></span>
+                        <a class="email" href="mailto:contact@forstudy.space">contact@forstudy.space</a>
+                    </div>
+                <p class="copyright" id="three">© 2021 HLEGAL Law company, LLC</p>
+            </div>
+            <!-- <div class="wrapper_footer">
+                <div class="information_holder">
+                    <div class="company_information" id="one">
+                        <p class="adress">Kyiv, Mechnikova str, 14/1</p>
+                        <span class="dot dot_color"></span>
+                        <a class="map" href="https://goo.gl/maps/TYSp5v7BjKmbazHn8" target="_blank">On map</a>
+                    </div>
+                    <div class="social_phone" id="two">
                         <a class="facebook_footer" href="https://www.facebook.com/" target="_blank"><svg width="38"
                                 height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_80918_1083)">
@@ -359,8 +384,8 @@
                         <a class="email" href="mailto:contact@forstudy.space">contact@forstudy.space</a>
                     </div>
                 </div>
-                <p class="copyright">© 2021 HLEGAL Law company, LLC</p>
-            </div>
+                <p class="copyright" id="three">© 2021 HLEGAL Law company, LLC</p>
+            </div> -->
         </div>
     </footer>
     <script src="./assets/jquery-3.6.3.min.js"></script>
@@ -375,8 +400,8 @@
     <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script> -->
     <!-- <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
     <!-- <script type="text/javascript" src="./slick-1.8.1 2/slick/slick.min.js"></script> -->
-    <script src="./script.js"></script>
-    <script src="./test.js"></script>
+    <!-- <script src="./script.js"></script> -->
+    <script src="./main_page.js"></script>
 </body>
 
 </html>
