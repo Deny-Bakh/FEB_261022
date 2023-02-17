@@ -47,9 +47,9 @@ if (window.location.href.includes(mainPage)){
           el.classList.remove("active");
           el = el.previousElementSibling;
         }
-      });
+      })
     }
-  }
+  };
   
   var navtabs = document.querySelectorAll(".nav-tabs");
   for (var i=0; i < navtabs.length; i++) {
@@ -63,7 +63,7 @@ if (window.location.href.includes(mainPage)){
 
       this.classList.add("active-bg");
     })
-  })
+  });
 
 };
 
